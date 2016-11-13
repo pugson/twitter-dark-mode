@@ -20,3 +20,7 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 3. Save
 4. ???
 5. PROFIT
+
+--
+
+You can [follow me on Twitter](https://twitter.com/dubstrike) if you want to.
