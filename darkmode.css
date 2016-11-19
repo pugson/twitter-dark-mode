@@ -101,7 +101,6 @@ body,
 .new-tweets-bar,
 .RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus, .RichEditor div[contenteditable].fake-focus, .RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus, .RichEditor div[contenteditable].fake-focus,
 .RichEditor.is-fakeFocus, .RichEditor,
-.hovercard .profile-social-proof,
 .NotificationsHeadingContent,
 .stream-item-activity-notification,
 .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item, .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item .tweet:hover,
@@ -109,6 +108,12 @@ body,
 .modal-body p {
   background-color: hsla(214, 27%, 15%, 1);
   border-color: hsla(214, 27%, 25%, 1);
+  color: white;
+}
+
+.hovercard .profile-social-proof {
+  background: transparent;
+  border-color: transparent;
   color: white;
 }
 
