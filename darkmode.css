@@ -223,7 +223,11 @@ body,
 }
 
 .tweet.focus {
-  z-index: 99999999999999 !important;
+  z-index: 999999 !important;
+}
+
+#profile-hover-container {
+  z-index: 99999999 !important;
 }
 
 .ProfileTweet-action .dropdown .dropdown-menu {
