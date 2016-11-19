@@ -15,7 +15,7 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 
 ![img](http://share.wojtek.im/hJlU+)
 
-1. Copy the contents of [darkmode.css](https://raw.githubusercontent.com/dubstrike/twitter-dark-mode/master/darkmode.css)
+1. Copy the contents of [darkmode.css](https://raw.githubusercontent.com/dubstrike/twitter-dark-mode/master/darkmode.css) > `Write new style` > paste
 2. Create a rule for *twitter.com*
 3. Save
 4. ???
