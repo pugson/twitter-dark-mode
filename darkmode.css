@@ -243,3 +243,8 @@ body,
 .DMConversation-composer {
   box-shadow: none;
 }
+
+.ProfileClusterFollow {
+  background: transparent;
+  border: transparent;
+}
