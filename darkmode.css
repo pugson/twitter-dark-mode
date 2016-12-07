@@ -252,3 +252,12 @@ body,
 .MomentCapsuleVTwoItemTweet--withText {
   background: hsla(214, 27%, 12%, 1);
 }
+
+.TwitterCard .MomentCard-description p {
+  color: #fff;
+}
+
+.TwitterCard .MomentCard {
+  background-color: hsla(214, 27%, 12%, 1);
+  color: #fff !important;
+}
