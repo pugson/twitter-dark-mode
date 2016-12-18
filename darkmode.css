@@ -46,13 +46,13 @@ body,
 .DMInboxItem,
 .tweet-form .thumbnail-container,
 .ComposerThumbnail {
-  border-color: hsla(214, 27%, 25%, 1);
+  border-color: hsla(214, 27%, 25%, 1) !important;
 }
 
 .ComposerThumbnail {
   background: transparent;
   box-shadow: none;
-  border-color: transparent;
+  border-color: transparent !important;
 }
 
 .tweet-form .thumbnail-container {
@@ -60,7 +60,7 @@ body,
 }
 
 .DirectMessage--received .Caret:before {
-  border-color: hsla(214, 27%, 15%, 1);
+  border-color: hsla(214, 27%, 15%, 1) !important;
 }
 
 .tweet:hover,
@@ -94,8 +94,8 @@ body,
 .top-timeline-tweetbox .timeline-tweet-box,
 .ProfileCard-bg,
 .ListCreationModule {
-  background-color: hsla(214, 27%, 20%, 1);
-  border-color: hsla(214, 27%, 25%, 1);
+  background-color: hsla(214, 27%, 20%, 1) !important;
+  border-color: hsla(214, 27%, 25%, 1) !important;
 }
 
 .new-tweets-bar,
@@ -105,15 +105,17 @@ body,
 .stream-item-activity-notification,
 .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item, .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item .tweet:hover,
 .modal .modal-tweet,
-.modal-body p {
-  background-color: hsla(214, 27%, 15%, 1);
-  border-color: hsla(214, 27%, 25%, 1);
+.modal-body p,
+.ProfileHeading-content,
+.SignupCallOut {
+  background-color: hsla(214, 27%, 15%, 1) !important;
+  border-color: hsla(214, 27%, 25%, 1) !important;
   color: white;
 }
 
 .hovercard .profile-social-proof {
-  background: transparent;
-  border-color: transparent;
+  background: transparent !important;
+  border-color: transparent !important;
   color: white;
 }
 
@@ -191,11 +193,11 @@ body,
 .permalink.has-replies .inline-reply-tweetbox,
 .dropdown-menu,
 .dropdown-divider {
-  border-color: rgba(255,255,255,.18);
+  border-color: rgba(255,255,255,.18) !important;
 }
 
 .dropdown-caret .caret-inner {
-  border-bottom-color: hsla(214, 27%, 5%, 1);
+  border-bottom-color: hsla(214, 27%, 5%, 1) !important;
 }
 
 .QuoteTweet-container,
@@ -203,14 +205,14 @@ body,
 .ThreadedConversation-showMore,
 .ThreadedConversation, .ThreadedConversation--loneTweet,
 .DashboardProfileCard-avatarLink {
-  background-color: hsla(214, 27%, 12%, 1);
+  background-color: hsla(214, 27%, 12%, 1) !important;
 }
 
 .btn,
 .DashboardProfileCard-avatarImage {
-  background-color: hsla(214, 28%, 10%, 1);
-  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.35));
-  border-color: hsla(214, 28%, 5%, 1);
+  background-color: hsla(214, 28%, 10%, 1) !important;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.35)) !important;
+  border-color: hsla(214, 28%, 5%, 1) !important;
 }
 
 .permalink-container {
