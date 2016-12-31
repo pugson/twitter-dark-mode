@@ -27,6 +27,24 @@ body:first-of-type,
   color: #fff;
 }
 
+.PollingCardComposer {
+  background-color: hsla(214, 27%, 15%, 1);
+  box-shadow: inset 0 1px 0 hsla(214, 27%, 25%, 1);
+}
+
+input, textarea, div[contenteditable], .t1-select {
+  background-color: rgba(0,0,0,.15);
+  border: 1px solid rgba(0,0,0,.25);
+}
+
+.PollingCardComposer .PollingCardComposer-pollDuration {
+  border-top: solid 1px hsla(214, 27%, 25%, 1);
+}
+
+.RichEditor, .TweetBoxAttachments {
+  border-color: hsla(214, 27%, 25%, 1);
+}
+
 .global-nav-inner,
 .module,
 .stream-item:not(.no-header-background-module),
