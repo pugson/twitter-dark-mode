@@ -1,9 +1,30 @@
+@-moz-document domain("twitter.com") {
+
 /* Twitter Dark Mode Override */
 
-body,
+body:first-of-type,
 .AppContent,
 .ProfileHeading-content {
   background-color: hsla(214, 27%, 10%, 1);
+}
+
+.TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+  background-color: #212c3a;
+  border-radius: 0;
+  box-shadow: 0 5px 0 0 #212c3a;
+}
+
+.PermalinkOverlay-content .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+  background-color: #0e131a;
+  box-shadow: 0 5px 0 0 #0e131a;
+}
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+  background: #1da1f2;
+}
+
+.TwitterCard .PollXChoice-optionContainer {
+  color: #fff;
 }
 
 .global-nav-inner,
@@ -213,6 +234,17 @@ body,
   background-color: hsla(214, 28%, 10%, 1) !important;
   background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.35)) !important;
   border-color: hsla(214, 28%, 5%, 1) !important;
+  color: #fff;
+}
+
+.not-following .follow-button .follow-text, .following .follow-button .following-text, .following .follow-button:hover .unfollow-text, .following .follow-button.cancel-hover-style:hover .following-text, .blocked .follow-button .blocked-text, .blocked .follow-button:hover .unblock-text, .pending .follow-button .pending-text, .pending .follow-button:hover .cancel-text, .pending .follow-button.cancel-hover-style:hover .pending-text {
+  color: #fff;
+}
+
+a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .new-tweets-bar, .remove-background-btn, .stream-item-activity-notification .latest-tweet .tweet-row a:hover, .stream-item-activity-notification .latest-tweet .tweet-row a:focus, .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, .stream-item-activity-notification .latest-tweet .tweet-row a:focus b,
+.Trends .context-trend-item .trend-name,
+a[role="button"] {
+  color: #1da1f2;
 }
 
 .permalink-container {
@@ -262,4 +294,5 @@ body,
 .TwitterCard .MomentCard {
   background-color: hsla(214, 27%, 12%, 1);
   color: #fff !important;
+}
 }
