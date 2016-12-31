@@ -45,6 +45,10 @@ input, textarea, div[contenteditable], .t1-select {
   border-color: hsla(214, 27%, 25%, 1);
 }
 
+.Gallery-content {
+  background-color: transparent;
+}
+
 .global-nav-inner,
 .module,
 .stream-item:not(.no-header-background-module),
