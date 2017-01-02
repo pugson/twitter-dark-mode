@@ -1,4 +1,4 @@
-# Twitter Dark Mode (2016)
+# Twitter Dark Mode (2017)
 ![preview](http://share.wojtek.im/vWZU+)
 
 Dark mode override for [Twitter.com](https://twitter.com) to be used with **Stylish**. Tested only in Chrome.
@@ -16,7 +16,7 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 ### The Easy Way (with auto-updates)
 
 1. Download Stylish for your browser. Links are above.
-2. [Install this style](https://userstyles.org/styles/135366/twitter-dark-mode-2016)
+2. [Install this style](https://userstyles.org/styles/135366/twitter-dark-mode-2017)
 3. That's it 🎉
 
 ----
