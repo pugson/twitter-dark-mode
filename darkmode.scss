@@ -252,6 +252,32 @@ body {
   background: #161d27;
 }
 
+.EmojiPicker-query {
+  background-color: #212c3a;
+  background-image: none;
+  border-bottom: 1px solid #1c2531;
+}
+
+.EmojiPicker-content.Caret:before {
+  border-color: #090c10;
+}
+
+.EmojiPicker-content.Caret:after {
+  border-color: #090c10;
+}
+
+.EmojiPicker-categoryHeader {
+  border-bottom: 1px solid #212c3a;
+}
+
+.EmojiPicker-categoryColumn {
+  border-right: 1px solid #212c3a;
+}
+
+.EmojiPicker-diversityRow {
+  border-top: 1px solid #212c3a;
+}
+
 .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
   background-color: hsla(204, 90%, 30%, 1);
 }
