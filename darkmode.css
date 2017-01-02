@@ -1,335 +1,307 @@
 @-moz-document domain("twitter.com") {
-
-/* Twitter Dark Mode Override */
-
-body:first-of-type,
-.AppContent,
-.ProfileHeading-content {
-  background-color: hsla(214, 27%, 10%, 1);
-}
-
-.TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
-  background-color: #212c3a;
-  border-radius: 0;
-  box-shadow: 0 5px 0 0 #212c3a;
-}
-
-.PermalinkOverlay-content .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
-  background-color: #0e131a;
-  box-shadow: 0 5px 0 0 #0e131a;
-}
-
-.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
-  background: #1da1f2;
-}
-
-.TwitterCard .PollXChoice-optionContainer {
-  color: #fff;
-}
-
-.PollingCardComposer {
-  background-color: hsla(214, 27%, 15%, 1);
-  box-shadow: inset 0 1px 0 hsla(214, 27%, 25%, 1);
-}
-
-input, textarea, div[contenteditable], .t1-select {
-  background-color: rgba(0,0,0,.15);
-  border: 1px solid rgba(0,0,0,.25);
-}
-
-.PollingCardComposer .PollingCardComposer-pollDuration {
-  border-top: solid 1px hsla(214, 27%, 25%, 1);
-}
-
-.RichEditor, .TweetBoxAttachments {
-  border-color: hsla(214, 27%, 25%, 1);
-}
-
-.Gallery-content {
-  background-color: transparent;
-}
-
-.global-nav-inner,
-.module,
-.stream-item:not(.no-header-background-module),
-.MoveableModule,
-.ProfileCanopy-navBar,
-.ProfileNav-item--userActions,
-.ProfileAvatar,
-.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
-.WhoToFollow,
-.module .flex-module,
-.ProfileCard,
-.DMActivity-body,
-.GalleryTweet .tweet,
-.DMDivider,
-.EmojiBar-icon,
-.EmojiBar-suggestions,
-.tweet-form .thumbnail-container {
-  background-color: hsla(214, 28%, 18%, 1) !important;
-}
-
-#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
-  background: transparent;
-}
-
-.module,
-.stream-item:not(.no-header-background-module),
-.tweet,
-.ProfileCanopy-navBar,
-.ProfileHeading-content,
-.ProfileAvatar,
-.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
-.WhoToFollow,
-.module .flex-module,
-.TwitterCard-container,
-.ProfileCard,
-.content-header, .content-no-header,
-.stream-item+.stream-item.separated-module:not(.no-header-background-module), .stream-item.separated-module+.stream-item:not(.no-header-background-module), .PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module),
-.DMInboxItem,
-.tweet-form .thumbnail-container,
-.ComposerThumbnail {
-  border-color: hsla(214, 27%, 25%, 1) !important;
-}
-
-.ComposerThumbnail {
-  background: transparent;
-  box-shadow: none;
-  border-color: transparent !important;
-}
-
-.tweet-form .thumbnail-container {
-  box-shadow: none;
-}
-
-.DirectMessage--received .Caret:before {
-  border-color: hsla(214, 27%, 15%, 1) !important;
-}
-
-.tweet:hover,
-.conversation-module .conversation-tweet-item .tweet:hover,
-.DirectMessage--received .DirectMessage-message,
-.DMInboxItem:hover {
-  background-color: hsla(214, 27%, 15%, 1) !important;
-}
-
-.DMInboxItem.is-unread,
-.FollowStatus {
-  background-color: hsla(214, 60%, 20%, 1) !important;
-}
-
-.hovercard.profile-card .ProfileCard-content .FollowStatus {
-  color: #1c9dec;
-}
-
-.global-nav .search-input,
-.modal-header,
-.DMActivity-header,
-.u-bgUserColorLightest,
-.DMComposer-container {
-  background-color: hsla(214, 27%, 10%, 1) !important;
-  border-color: hsla(214, 27%, 25%, 1) !important;
-}
-
-.DashboardProfileCard,
-.DashboardProfileCard-bg,
-.tweet-box,
-.top-timeline-tweetbox .timeline-tweet-box,
-.ProfileCard-bg,
-.ListCreationModule {
-  background-color: hsla(214, 27%, 20%, 1) !important;
-  border-color: hsla(214, 27%, 25%, 1) !important;
-}
-
-.new-tweets-bar,
-.RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus, .RichEditor div[contenteditable].fake-focus, .RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus, .RichEditor div[contenteditable].fake-focus,
-.RichEditor.is-fakeFocus, .RichEditor,
-.NotificationsHeadingContent,
-.stream-item-activity-notification,
-.permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item, .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item .tweet:hover,
-.modal .modal-tweet,
-.modal-body p,
-.ProfileHeading-content,
-.SignupCallOut {
-  background-color: hsla(214, 27%, 15%, 1) !important;
-  border-color: hsla(214, 27%, 25%, 1) !important;
-  color: white;
-}
-
-.hovercard .profile-social-proof {
-  background: transparent !important;
-  border-color: transparent !important;
-  color: white;
-}
-
-.new-tweets-bar:hover {
-  background-color: hsla(204, 90%, 60%, .3);
-}
-
-.stream-item-activity-notification .stream-item-activity-header .pretty-link b {
-  color: hsla(204, 90%, 60%, 1);
-}
-
-.tweet-text,
-.fullname,
-.SummaryCard-content h2,
-.SummaryCard-content h3,
-.SummaryCard-content h1,
-.QuoteTweet-fullname,
-.ProfileHeaderCard,
-.ProfileNav-item.is-active span.ProfileNav-value,
-.TweetImpressionsModule,
-.WhoToFollow-users .fullname,
-.ProfileNameTruncated,
-.bio-container,
-.ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus,
-.stream-item-activity-notification,
-.stream-item-activity-line.js-actionable-user.stream-item-activity-line-notification .fullname,
-.DashboardProfileCard-name {
-  color: rgba(255,255,255,.85);
-}
-
-.ProfileHeaderCard-location span,
-.ProfileHeaderCard-joinDate span {
-  color: rgba(255,255,255,.5);
-}
-
-.SummaryCard-content p {
-  color: rgba(255,255,255,.65);
-}
-
-.vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
-  background-color: hsla(204, 90%, 30%, 1);
-}
-
-.SummaryCard-content,
-.modal-tweet-form-container,
-.modal-content,
-.modal-tweet-form-container,
-#global-tweet-dialog .modal-tweet-form-container,
-.permalink .inline-reply-tweetbox,
-.ThreadedConversation-viewOther,
-.home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .WebToast-box--altColor {
-  background: hsla(214, 27%, 12%, 1);
-}
-
-.modal-header,
-.permalink,
-.permalink-tweet, .permalink-tweet:hover,
-.PermalinkOverlay-spinnerContainer,
-.stream-end-inner,
-.dropdown-menu {
-  background: hsla(214, 27%, 8%, 1);
-}
-
-[class^="TwitterCardsGrid"],
-.QuoteTweet,
-.permalink-tweet, .permalink-tweet:hover,
-.permalink .inline-reply-tweetbox,
-.stream-end-inner,
-.stream-end-item, .stream-end, .stream-loading, .stream-placeholder,
-.tweet .stats,
-.permalink .stats .avatar-row a:first-child,
-.permalink .in-reply-to .tweet, .permalink .replies-to .tweet,
-.ThreadedConversation, .ThreadedConversation-showMore:after, .ThreadedConversation-viewOther .view-other-link,
-.ThreadedConversation, .ThreadedConversation-showMore, .ThreadedConversation-showMore:after, .ThreadedConversation+.ThreadedConversation--loneTweet, :not(.ThreadedConversation--ownReply)+.ThreadedConversation--ownReply, .ThreadedConversation--ownReply+.ThreadedConversation--loneTweet:not(.ThreadedConversation--ownReply), .ThreadedConversation--loneTweet:first-child,
-.permalink.has-replies .inline-reply-tweetbox,
-.dropdown-menu,
-.dropdown-divider {
-  border-color: rgba(255,255,255,.18) !important;
-}
-
-.dropdown-caret .caret-inner {
-  border-bottom-color: hsla(214, 27%, 5%, 1) !important;
-}
-
-.QuoteTweet-container,
-.permalink-tweet:hover, .permalink-tweet.focus,
-.ThreadedConversation-showMore,
-.ThreadedConversation, .ThreadedConversation--loneTweet,
-.DashboardProfileCard-avatarLink {
-  background-color: hsla(214, 27%, 12%, 1) !important;
-}
-
-.btn,
-.DashboardProfileCard-avatarImage {
-  background-color: hsla(214, 28%, 10%, 1) !important;
-  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.35)) !important;
-  border-color: hsla(214, 28%, 5%, 1) !important;
-  color: #fff;
-}
-
-.not-following .follow-button .follow-text, .following .follow-button .following-text, .following .follow-button:hover .unfollow-text, .following .follow-button.cancel-hover-style:hover .following-text, .blocked .follow-button .blocked-text, .blocked .follow-button:hover .unblock-text, .pending .follow-button .pending-text, .pending .follow-button:hover .cancel-text, .pending .follow-button.cancel-hover-style:hover .pending-text {
-  color: #fff;
-}
-
-a:not(.js-nav):not(.global-dm-nav), 
-.btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .new-tweets-bar, .remove-background-btn, .stream-item-activity-notification .latest-tweet .tweet-row a:hover, .stream-item-activity-notification .latest-tweet .tweet-row a:focus, .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, .stream-item-activity-notification .latest-tweet .tweet-row a:focus b,
-.Trends .context-trend-item .trend-name,
-a[role="button"]:not(.global-dm-nav), li.active,
-s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s, 
-.stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
-  color: #1da1f2 !important;
-}
-
-.TwitterCard-container--clickable:hover {
-  background: transparent;
-}
-
-.username s, .account-group-inner s {
-  color: #b1bbc3 !important;
-}
-
-.username, .time, .time a, .metadata, .metadata button.btn-link, .metadata a {
-  color: #8899a6 !important;
-}
-
-.permalink-container {
-  box-shadow: 0 0 150px 20px black;
-  border-radius: 5px;
-}
-
-.global-nav .people .count .count-inner {
-  border-color: hsla(190, 100%, 10%, 1);
-}
-
-.tweet.focus {
-  z-index: 999999 !important;
-}
-
-#profile-hover-container {
-  z-index: 99999999 !important;
-}
-
-.ProfileTweet-action .dropdown .dropdown-menu {
-  margin: 8px -10px 0;
-  border: 1px solid rgba(255,255,255,.05);
-  box-shadow: 0 8px 40px rgba(0,0,0,.55);
-}
-
-.DMNotice {
-  background: hsla(214, 27%, 12%, 1);
-}
-
-.DMConversation-composer {
-  box-shadow: none;
-}
-
-.ProfileClusterFollow {
-  background: transparent;
-  border: transparent;
-}
-
-.MomentCapsuleVTwoItemTweet--withText {
-  background: hsla(214, 27%, 12%, 1);
-}
-
-.TwitterCard .MomentCard-description p {
-  color: #fff;
-}
-
-.TwitterCard .MomentCard {
-  background-color: hsla(214, 27%, 12%, 1);
-  color: #fff !important;
-}
+  /* Twitter Dark Mode Override */
+  body:first-of-type,
+  .AppContent,
+  .ProfileHeading-content {
+    background-color: #131920;
+  }
+  .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+    background-color: #212c3a;
+    border-radius: 0;
+    box-shadow: 0 5px 0 0 #212c3a;
+  }
+  .PermalinkOverlay-content .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+    background-color: #0e131a;
+    box-shadow: 0 5px 0 0 #0e131a;
+  }
+  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    background: #1da1f2;
+  }
+  .TwitterCard .PollXChoice-optionContainer {
+    color: #fff;
+  }
+  .PollingCardComposer {
+    background-color: #1c2531;
+    box-shadow: inset 0 1px 0 #2f3d51;
+  }
+  input, textarea, div[contenteditable], .t1-select {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+  .PollingCardComposer .PollingCardComposer-pollDuration {
+    border-top: solid 1px #2f3d51;
+  }
+  .RichEditor, .TweetBoxAttachments {
+    border-color: #2f3d51;
+  }
+  .Gallery-content {
+    background-color: transparent;
+  }
+  .global-nav-inner,
+  .module,
+  .stream-item:not(.no-header-background-module),
+  .MoveableModule,
+  .ProfileCanopy-navBar,
+  .ProfileNav-item--userActions,
+  .ProfileAvatar,
+  .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
+  .WhoToFollow,
+  .module .flex-module,
+  .ProfileCard,
+  .DMActivity-body,
+  .GalleryTweet .tweet,
+  .DMDivider,
+  .EmojiBar-icon,
+  .EmojiBar-suggestions,
+  .tweet-form .thumbnail-container {
+    background-color: #212c3b !important;
+  }
+  #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
+    background: transparent;
+  }
+  .module,
+  .stream-item:not(.no-header-background-module),
+  .tweet,
+  .ProfileCanopy-navBar,
+  .ProfileHeading-content,
+  .ProfileAvatar,
+  .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers,
+  .WhoToFollow,
+  .module .flex-module,
+  .TwitterCard-container,
+  .ProfileCard,
+  .content-header, .content-no-header,
+  .stream-item + .stream-item.separated-module:not(.no-header-background-module), .stream-item.separated-module + .stream-item:not(.no-header-background-module), .PromptbirdPrompt-streamItem.separated-module + .stream-item:not(.no-header-background-module),
+  .DMInboxItem,
+  .tweet-form .thumbnail-container,
+  .ComposerThumbnail {
+    border-color: #2f3d51 !important;
+  }
+  .ComposerThumbnail {
+    background: transparent;
+    box-shadow: none;
+    border-color: transparent !important;
+  }
+  .tweet-form .thumbnail-container {
+    box-shadow: none;
+  }
+  .DirectMessage--received .Caret:before {
+    border-color: #1c2531 !important;
+  }
+  .tweet:hover,
+  .conversation-module .conversation-tweet-item .tweet:hover,
+  .DirectMessage--received .DirectMessage-message,
+  .DMInboxItem:hover {
+    background-color: #1c2531 !important;
+  }
+  .DMInboxItem.is-unread,
+  .FollowStatus {
+    background-color: #142f52 !important;
+  }
+  .global-nav .search-input,
+  .modal-header,
+  .DMActivity-header,
+  .u-bgUserColorLightest,
+  .DMComposer-container {
+    background-color: #131920 !important;
+    border-color: #2f3d51 !important;
+  }
+  .DashboardProfileCard,
+  .DashboardProfileCard-bg,
+  .tweet-box,
+  .top-timeline-tweetbox .timeline-tweet-box,
+  .ProfileCard-bg,
+  .ListCreationModule {
+    background-color: #253141 !important;
+    border-color: #2f3d51 !important;
+  }
+  body .new-tweets-bar,
+  body .RichEditor div[contenteditable], body .RichEditor div[contenteditable]:focus, body .RichEditor div[contenteditable].fake-focus, body .RichEditor div[contenteditable], body .RichEditor div[contenteditable]:focus, body .RichEditor div[contenteditable].fake-focus,
+  body .RichEditor.is-fakeFocus, body .RichEditor,
+  body .NotificationsHeadingContent,
+  body .stream-item-activity-notification,
+  body .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item, body .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item .tweet:hover,
+  body .modal .modal-tweet,
+  body .modal-body p,
+  body .ProfileHeading-content,
+  body .SignupCallOut {
+    background-color: #1c2531 !important;
+    border-color: #2f3d51 !important;
+    color: white !important;
+  }
+  body .hovercard .profile-social-proof {
+    background: transparent !important;
+    border-color: transparent !important;
+    color: white !important;
+  }
+  body .stream-item-activity-notification .stream-item-activity-header .pretty-link b {
+    color: #3dabf5;
+  }
+  body .tweet-text,
+  body .fullname,
+  body .SummaryCard-content h2,
+  body .SummaryCard-content h3,
+  body .SummaryCard-content h1,
+  body .QuoteTweet-fullname,
+  body .ProfileHeaderCard,
+  body .ProfileNav-item.is-active span.ProfileNav-value,
+  body .TweetImpressionsModule,
+  body .WhoToFollow-users .fullname,
+  body .ProfileNameTruncated,
+  body .bio-container,
+  body .ProfileHeading-toggleItem.is-active, body .ProfileHeading-toggleItem.is-active:hover, body .ProfileHeading-toggleItem.is-active:focus,
+  body .stream-item-activity-notification,
+  body .stream-item-activity-line.js-actionable-user.stream-item-activity-line-notification .fullname,
+  body .DashboardProfileCard-name {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  body .ProfileHeaderCard-location span,
+  body .ProfileHeaderCard-joinDate span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  body .SummaryCard-content p {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  body .btn,
+  body .DashboardProfileCard-avatarImage {
+    background-color: #121921 !important;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.35)) !important;
+    border-color: #090c10 !important;
+    color: #fff !important;
+  }
+  body .not-following .follow-button .follow-text, body .following .follow-button .following-text, body .following .follow-button:hover .unfollow-text, body .following .follow-button.cancel-hover-style:hover .following-text, body .blocked .follow-button .blocked-text, body .blocked .follow-button:hover .unblock-text, body .pending .follow-button .pending-text, body .pending .follow-button:hover .cancel-text, body .pending .follow-button.cancel-hover-style:hover .pending-text {
+    color: #fff !important;
+  }
+  body a:not(.js-nav):not(.global-dm-nav),
+  body .btn-link, body .btn-link:focus, body .icon-btn, body .pretty-link b, body .pretty-link:hover s, body .pretty-link:hover b, body .pretty-link:focus s, body .pretty-link:focus b, body .metadata a:hover, body .metadata a:focus, body .account-group:hover .fullname, body .account-group:focus .fullname, body .account-summary:focus .fullname, body .message .message-text a, body .stats a strong, body .plain-btn:hover, body .plain-btn:focus, body .dropdown.open .user-dropdown.plain-btn, body .open > .plain-btn, body #global-actions .new:before, body .module .list-link:hover, body .module .list-link:focus, body .stats a:hover, body .stats a:hover strong, body .stats a:focus, body .stats a:focus strong, body .find-friends-sources li:hover .source, body .stream-item a:hover .fullname, body .stream-item a:focus .fullname, body .stream-item .view-all-supplements:hover, body .stream-item .view-all-supplements:focus, body .tweet .time a:hover, body .tweet .time a:focus, body .tweet .details.with-icn b, body .tweet .details.with-icn .Icon, body .stream-item:hover .original-tweet .details b, body .stream-item .original-tweet.focus .details b, body .stream-item.open .original-tweet .details b, body .client-and-actions a:hover, body .client-and-actions a:focus, body .dismiss-btn:hover b, body .tweet .context .pretty-link:hover s, body .tweet .context .pretty-link:hover b, body .tweet .context .pretty-link:focus s, body .tweet .context .pretty-link:focus b, body .list .username a:hover, body .list .username a:focus, body .list-membership-container .create-a-list, body .list-membership-container .create-a-list:hover, body .card .list-details a:hover, body .card .list-details a:focus, body .card .card-body:hover .attribution, body .card .card-body .attribution:focus, body .new-tweets-bar, body .remove-background-btn, body .stream-item-activity-notification .latest-tweet .tweet-row a:hover, body .stream-item-activity-notification .latest-tweet .tweet-row a:focus, body .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, body .stream-item-activity-notification .latest-tweet .tweet-row a:focus b,
+  body .Trends .context-trend-item .trend-name,
+  body a[role="button"]:not(.global-dm-nav), body li.active,
+  body s, body .pretty-link:hover s, body .pretty-link:focus s, body .stream-item-activity-notification .latest-tweet .tweet-row a:hover s,
+  body .stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
+    color: #1da1f2 !important;
+  }
+  body .hovercard.profile-card .ProfileCard-content .FollowStatus,
+  body .u-textUserColor,
+  body .u-textUserColorHover:active,
+  body .u-textUserColorHover:hover,
+  body .u-textUserColorHover:hover .ProfileTweet-actionCount,
+  body .u-textUserColorHover:focus {
+    color: #1c9dec !important;
+  }
+  body #global-actions > li > a {
+    border-bottom-color: #1c9dec !important;
+  }
+  body #global-actions > li:hover > a, body #global-actions > li > a:focus, body .nav.right-actions > li > a:hover, body .nav.right-actions > li > button:hover, body .nav.right-actions > li > a:focus, body .nav.right-actions > li > button:focus {
+    border-bottom-color: #1c9dec !important;
+    color: #1c9dec !important;
+  }
+  body a, body .btn-link, body .btn-link:focus, body .icon-btn, body .pretty-link b, body .pretty-link:hover s, body .pretty-link:hover b, body .pretty-link:focus s, body .pretty-link:focus b, body .metadata a:hover, body .metadata a:focus, body .account-group:hover .fullname, body .account-group:focus .fullname, body .account-summary:focus .fullname, body .message .message-text a, body .stats a strong, body .plain-btn:hover, body .plain-btn:focus, body .dropdown.open .user-dropdown.plain-btn, body .open > .plain-btn, body #global-actions .new:before, body .module .list-link:hover, body .module .list-link:focus, body .stats a:hover, body .stats a:hover strong, body .stats a:focus, body .stats a:focus strong, body .find-friends-sources li:hover .source, body .stream-item a:hover .fullname, body .stream-item a:focus .fullname, body .stream-item .view-all-supplements:hover, body .stream-item .view-all-supplements:focus, body .tweet .time a:hover, body .tweet .time a:focus, body .tweet .details.with-icn b, body .tweet .details.with-icn .Icon, body .stream-item:hover .original-tweet .details b, body .stream-item .original-tweet.focus .details b, body .stream-item.open .original-tweet .details b, body .client-and-actions a:hover, body .client-and-actions a:focus, body .dismiss-btn:hover b, body .tweet .context .pretty-link:hover s, body .tweet .context .pretty-link:hover b, body .tweet .context .pretty-link:focus s, body .tweet .context .pretty-link:focus b, body .list .username a:hover, body .list .username a:focus, body .list-membership-container .create-a-list, body .list-membership-container .create-a-list:hover, body .card .list-details a:hover, body .card .list-details a:focus, body .card .card-body:hover .attribution, body .card .card-body .attribution:focus, body .new-tweets-bar, body .remove-background-btn, body .stream-item-activity-notification .latest-tweet .tweet-row a:hover, body .stream-item-activity-notification .latest-tweet .tweet-row a:focus, body .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, body .stream-item-activity-notification .latest-tweet .tweet-row a:focus b {
+    color: #1c9dec;
+  }
+  .new-tweets-bar:hover {
+    background-color: rgba(61, 171, 245, 0.3);
+  }
+  .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
+    background-color: #085a91;
+  }
+  .SummaryCard-content,
+  .modal-tweet-form-container,
+  .modal-content,
+  .modal-tweet-form-container,
+  #global-tweet-dialog .modal-tweet-form-container,
+  .permalink .inline-reply-tweetbox,
+  .ThreadedConversation-viewOther,
+  .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .WebToast-box--altColor {
+    background: #161d27;
+  }
+  .modal-header,
+  .permalink,
+  .permalink-tweet, .permalink-tweet:hover,
+  .PermalinkOverlay-spinnerContainer,
+  .stream-end-inner,
+  .dropdown-menu {
+    background: #0f141a;
+  }
+  [class^="TwitterCardsGrid"],
+  .QuoteTweet,
+  .permalink-tweet, .permalink-tweet:hover,
+  .permalink .inline-reply-tweetbox,
+  .stream-end-inner,
+  .stream-end-item, .stream-end, .stream-loading, .stream-placeholder,
+  .tweet .stats,
+  .permalink .stats .avatar-row a:first-child,
+  .permalink .in-reply-to .tweet, .permalink .replies-to .tweet,
+  .ThreadedConversation, .ThreadedConversation-showMore:after, .ThreadedConversation-viewOther .view-other-link,
+  .ThreadedConversation, .ThreadedConversation-showMore, .ThreadedConversation-showMore:after, .ThreadedConversation + .ThreadedConversation--loneTweet, :not(.ThreadedConversation--ownReply) + .ThreadedConversation--ownReply, .ThreadedConversation--ownReply + .ThreadedConversation--loneTweet:not(.ThreadedConversation--ownReply), .ThreadedConversation--loneTweet:first-child,
+  .permalink.has-replies .inline-reply-tweetbox,
+  .dropdown-menu,
+  .dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.18) !important;
+  }
+  .dropdown-caret .caret-inner {
+    border-bottom-color: #090c10 !important;
+  }
+  .QuoteTweet-container,
+  .permalink-tweet:hover, .permalink-tweet.focus,
+  .ThreadedConversation-showMore,
+  .ThreadedConversation, .ThreadedConversation--loneTweet,
+  .DashboardProfileCard-avatarLink {
+    background-color: #161d27 !important;
+  }
+  .TwitterCard-container--clickable:hover {
+    background: transparent;
+  }
+  .username s, .account-group-inner s {
+    color: #b1bbc3 !important;
+  }
+  .username, .time, .time a, .metadata, .metadata button.btn-link, .metadata a {
+    color: #8899a6 !important;
+  }
+  .permalink-container {
+    box-shadow: 0 0 150px 20px black;
+    border-radius: 5px;
+  }
+  .global-nav .people .count .count-inner {
+    border-color: #002b33;
+  }
+  .ProfilePage.is-editing .ProfilePage-editingOverlay {
+    background: #000;
+  }
+  .u-borderUserColorLight, .u-borderUserColorLightFocus:focus, .u-borderUserColorLightHover:hover, .u-borderUserColorLightHover:focus {
+    border-color: #2f3d51 !important;
+  }
+  .u-bgUserColorLighter {
+    background-color: #2f3d51 !important;
+  }
+  .tweet.focus {
+    z-index: 999999 !important;
+  }
+  #profile-hover-container {
+    z-index: 99999999 !important;
+  }
+  .ProfileTweet-action .dropdown .dropdown-menu {
+    margin: 8px -10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.55);
+  }
+  .DMNotice {
+    background: #161d27;
+  }
+  .DMConversation-composer {
+    box-shadow: none;
+  }
+  .ProfileClusterFollow {
+    background: transparent;
+    border: transparent;
+  }
+  .MomentCapsuleVTwoItemTweet--withText {
+    background: #161d27;
+  }
+  .TwitterCard .MomentCard-description p {
+    color: #fff;
+  }
+  .TwitterCard .MomentCard {
+    background-color: #161d27;
+    color: #fff !important;
+  }
 }
