@@ -206,7 +206,7 @@ body {
   a:not(.js-nav):not(.global-dm-nav), 
   .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .new-tweets-bar, .remove-background-btn, .stream-item-activity-notification .latest-tweet .tweet-row a:hover, .stream-item-activity-notification .latest-tweet .tweet-row a:focus, .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, .stream-item-activity-notification .latest-tweet .tweet-row a:focus b,
   .Trends .context-trend-item .trend-name,
-  a[role="button"]:not(.global-dm-nav), li.active,
+  a[role="button"]:not(.global-dm-nav):not(.js-moments-tab), li.active,
   s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s, 
   .stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
     color: #1da1f2 !important;
@@ -235,6 +235,10 @@ body {
   }
 }
 
+.MomentCapsuleItemTweet--withText {
+  background-color: #090c10;
+  border-radius: 4px;
+}
 
 .new-tweets-bar:hover {
   background-color: hsla(204, 90%, 60%, .3);
