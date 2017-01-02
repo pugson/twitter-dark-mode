@@ -272,6 +272,10 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notificatio
   color: #1da1f2 !important;
 }
 
+.TwitterCard-container--clickable:hover {
+  background: transparent;
+}
+
 .username s, .account-group-inner s {
   color: #b1bbc3 !important;
 }
