@@ -231,6 +231,9 @@
   .EmojiPicker-diversityRow {
     border-top: 1px solid #212c3a;
   }
+  .EmojiPicker-query input[type=text].EmojiPicker-queryInput {
+    color: #fff;
+  }
   .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
     background-color: #085a91;
   }
