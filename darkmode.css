@@ -107,10 +107,10 @@
     border-color: #2f3d51 !important;
   }
   .global-nav .search-input{
-    color:#8899a6
+    color:#8899a6;
   }
   .global-nav .search-input:focus, .global-nav .search-input.focus{
-	  color:#ABB8C2
+    color:#abb8c2;
   }
   .DashboardProfileCard,
   .DashboardProfileCard-bg,
