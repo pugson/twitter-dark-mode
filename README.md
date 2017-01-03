@@ -34,3 +34,15 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 --
 
 You can [follow me on Twitter](https://twitter.com/dubstrike) if you want to.
+
+----
+
+#### If you've liked this theme, you might also like:
+
+<a href="https://rayfeed.com">                                           
+  <img src="https://static.rayfeed.xyz/rayfeed-logo-green-small.svg" /> 
+</a>
+
+A platform that helps you release successful products by discussing <br />and testing upcoming & existing features with your customers.
+
+[Check it out 👀](https://rayfeed.com)
