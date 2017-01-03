@@ -417,4 +417,10 @@ body {
   background-color: hsla(214, 27%, 12%, 1);
   color: #fff !important;
 }
+
+.DirectMessage.DirectMessage--sent .js-display-url {
+  color: #161d27;
+  text-decoration: underline;
+}
+
 }

@@ -345,4 +345,8 @@
     background-color: #161d27;
     color: #fff !important;
   }
+  .DirectMessage.DirectMessage--sent .js-display-url {
+    color: #161d27;
+    text-decoration: underline;
+  }
 }
