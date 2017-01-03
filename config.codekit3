@@ -34,9 +34,9 @@
 		},
 	"\/LICENSE": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/LICENSE",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/LICENSE.",
+		"oF": 1
 		},
 	"\/README.md": {
 		"cS": 0,
