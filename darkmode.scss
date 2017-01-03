@@ -282,6 +282,14 @@ body {
   color: #fff;
 }
 
+.global-nav .search-input {
+  color: #8899a6;
+}
+
+.global-nav .search-input:focus, .global-nav .search-input.focus {
+  color: #abb8c2;
+}
+
 .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
   background-color: hsla(204, 90%, 30%, 1);
 }

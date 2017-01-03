@@ -106,12 +106,6 @@
     background-color: #131920 !important;
     border-color: #2f3d51 !important;
   }
-  .global-nav .search-input{
-    color:#8899a6;
-  }
-  .global-nav .search-input:focus, .global-nav .search-input.focus{
-    color:#abb8c2;
-  }
   .DashboardProfileCard,
   .DashboardProfileCard-bg,
   .tweet-box,
@@ -239,6 +233,12 @@
   }
   .EmojiPicker-query input[type=text].EmojiPicker-queryInput {
     color: #fff;
+  }
+  .global-nav .search-input {
+    color: #8899a6;
+  }
+  .global-nav .search-input:focus, .global-nav .search-input.focus {
+    color: #abb8c2;
   }
   .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before {
     background-color: #085a91;
