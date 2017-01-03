@@ -349,4 +349,8 @@
     color: #161d27;
     text-decoration: underline;
   }
+  .pushstate-spinner,
+  .spinner {
+    filter: invert(100%) hue-rotate(180deg);
+  }
 }
