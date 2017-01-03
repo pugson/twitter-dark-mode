@@ -106,6 +106,12 @@
     background-color: #131920 !important;
     border-color: #2f3d51 !important;
   }
+  .global-nav .search-input{
+    color:#8899a6
+  }
+  .global-nav .search-input:focus, .global-nav .search-input.focus{
+	  color:#ABB8C2
+  }
   .DashboardProfileCard,
   .DashboardProfileCard-bg,
   .tweet-box,
