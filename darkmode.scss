@@ -65,7 +65,8 @@ input, textarea, div[contenteditable], .t1-select {
 .DMDivider,
 .EmojiBar-icon,
 .EmojiBar-suggestions,
-.tweet-form .thumbnail-container {
+.tweet-form .thumbnail-container,
+.MomentMakerHomeModule {
   background-color: hsla(214, 28%, 18%, 1) !important;
 }
 
@@ -88,7 +89,8 @@ input, textarea, div[contenteditable], .t1-select {
 .stream-item+.stream-item.separated-module:not(.no-header-background-module), .stream-item.separated-module+.stream-item:not(.no-header-background-module), .PromptbirdPrompt-streamItem.separated-module+.stream-item:not(.no-header-background-module),
 .DMInboxItem,
 .tweet-form .thumbnail-container,
-.ComposerThumbnail {
+.ComposerThumbnail,
+.MomentMakerHomeModule {
   border-color: hsla(214, 27%, 25%, 1) !important;
 }
 
