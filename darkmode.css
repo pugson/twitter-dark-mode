@@ -53,7 +53,8 @@
   .DMDivider,
   .EmojiBar-icon,
   .EmojiBar-suggestions,
-  .tweet-form .thumbnail-container {
+  .tweet-form .thumbnail-container,
+  .MomentMakerHomeModule {
     background-color: #212c3b !important;
   }
   #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
@@ -74,7 +75,8 @@
   .stream-item + .stream-item.separated-module:not(.no-header-background-module), .stream-item.separated-module + .stream-item:not(.no-header-background-module), .PromptbirdPrompt-streamItem.separated-module + .stream-item:not(.no-header-background-module),
   .DMInboxItem,
   .tweet-form .thumbnail-container,
-  .ComposerThumbnail {
+  .ComposerThumbnail,
+  .MomentMakerHomeModule {
     border-color: #2f3d51 !important;
   }
   .ComposerThumbnail {
