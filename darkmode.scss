@@ -519,4 +519,13 @@ body .js-nav-links .active .list-link.js-nav {
   border-color: #2f3d51;
 }
 
+.ep-Header .ep-Title,
+.ep-TweetPerformance.ep-Section .ep-Metric .ep-MetricTopContainer,
+.ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader, 
+.ep-EngagementsTableName, 
+.ep-MetricAnimation,
+.ProfileTweet-fullname.u-linkComplex-target {
+  color: rgba(255, 255, 255, .85);
+}
+
 }
