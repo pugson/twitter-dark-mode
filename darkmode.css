@@ -429,4 +429,16 @@
   .stream .app {
     border-color: #2f3d51;
   }
+  .ep-Header .ep-Title {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .ep-TweetPerformance.ep-Section .ep-Metric .ep-MetricTopContainer { 
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader, .ep-EngagementsTableName, .ep-MetricAnimation {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .ProfileTweet-fullname.u-linkComplex-target{
+    color: rgba(255, 255, 255, 0.85);
+  }
 }
