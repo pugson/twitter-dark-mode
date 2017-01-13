@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/darkmode.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/darkmode-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/darkmode.scss": {
 		"aP": 1,
 		"bl": 0,

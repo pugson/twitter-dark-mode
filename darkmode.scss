@@ -528,4 +528,19 @@ body .js-nav-links .active .list-link.js-nav {
   color: rgba(255, 255, 255, .85);
 }
 
+.recap-header {
+  border-bottom: 1px solid #2f3d51;
+  color: #f5f8fa;
+}
+
+.ProfileHeaderCard-birthdateText, 
+.ProfileHeaderCard-joinDateText, 
+.ProfileHeaderCard-locationText, 
+.ProfileHeaderCard-onlineHoursText, 
+.ProfileHeaderCard-responsivenessLevelText, 
+.ProfileHeaderCard-vineProfileText, 
+.ProfileHeaderCard-periscopeProfileText {
+  color: #8899a6;
+}
+
 }
