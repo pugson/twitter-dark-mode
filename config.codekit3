@@ -7,7 +7,7 @@
 		"uuidString": "A618D2C2-F19C-456B-8552-42631BF5A379"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/darkmode.css": {
 		"aP": 0,
@@ -713,6 +713,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1252,6 +1256,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

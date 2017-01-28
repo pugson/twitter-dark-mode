@@ -450,4 +450,75 @@
   .ProfileHeaderCard-periscopeProfileText {
     color: #8899a6;
   }
+  .typeahead a, .typeahead .fullname {
+    color: #f3f3f3;
+  }
+  .typeahead-items li > a {
+    color: #f3f3f3;
+  }
+  .typeahead strong {
+    color: #b3b3b3;
+  }
+  .MomentGuideNavigation {
+    background-color: #131920;
+    border-bottom: 1px solid #2f3d51;
+  }
+  .ProfileUserMomentsTimeline .MomentCapsuleSummary {
+    background-color: #131920;
+    border-bottom: 1px solid #2f3d51;
+  }
+  .MomentMakerRecommendations {
+    background-color: #131920;
+    border-top: 2px solid #2f3d51;
+  }
+  .MomentMakerRecommendations-module {
+    background-color: #131920;
+    border: 1px solid #131920;
+  }
+  .u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus {
+    border-color: #f3f3f3 !important;
+  }
+  .ProfileUserMomentsTimeline .GridTimeline-items.has-items {
+    border: 1px solid #2f3d51;
+  }
+  .MomentMakerRecommendations-more {
+    background-color: #2f3d51;
+    border-top: 1px solid #2f3d51;
+    color: #f3f3f3;
+  }
+  .MomentMakerRecommendations-scrollTopButton {
+    background-color: #2f3d51;
+    border: 1px solid #2f3d51;
+  }
+  .MomentButton--gray, .MomentButton--gray:focus {
+    color: #f3f3f3;
+  }
+  .MomentMakerPage-content {
+    background-color: #131920;
+    margin: 0 auto;
+  }
+  .u-bgUserColor, .u-bgUserColorHover:hover, .u-bgUserColorHover:focus {
+    background-color: #212c3b !important;
+  }
+  .MomentButton--white {
+    background: #212c3b;
+    border: 1px solid #fff;
+  }
+  .MomentUserByline-fullname {
+    color: #f3f3f3;
+  }
+  .MomentCapsuleItemTweet--withText {
+    background-color: #212c3b;
+    border: 1px solid #2f3d51;
+  }
+  .MomentCapsuleSummary-title {
+    color: #fff;
+  }
+  .MomentCapsuleCover-title {
+    color: #1da1f2;
+  }
+  .MomentFloatingMenu {
+    background-color: #090c10;
+    border: 1px solid #212c3b;
+  }
 }
