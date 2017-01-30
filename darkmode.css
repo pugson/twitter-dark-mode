@@ -521,4 +521,13 @@
     background-color: #090c10;
     border: 1px solid #212c3b;
   }
+  .AdaptiveNewsLargeImageHeadline-body {
+    background-color: #161d27;
+    border: 1px solid #2f3d51;
+  }
+  .SidebarFilterModule,
+  .AdaptiveRelatedSearches {
+    background-color: #212c3b;
+    border: 1px solid #2f3d51;
+  }
 }
