@@ -654,4 +654,19 @@ body .js-nav-links .active .list-link.js-nav {
   color: #fff;
 }
 
+.follow-card .follow-bar {
+  background-color: #2f3d51;
+  background-image: none;
+  border-top: 1px solid #161d27;
+  box-shadow: inset 0 1px 0 #090c10;
+}
+
+.dashboard .stats {
+  background-color: transparent;
+}
+
+.follow-card .flex-module-header h1 {
+  color: #f5f8fa;
+}
+
 }
