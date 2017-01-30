@@ -545,4 +545,7 @@
   .follow-card .flex-module-header h1 {
     color: #f5f8fa;
   }
+  .metadata a {
+    color: #0ab5fa;
+  }
 }
