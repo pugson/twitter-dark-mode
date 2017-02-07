@@ -1,5 +1,4 @@
-@-moz-document url-prefix("https://twitter.com") {
-  /* Twitter Dark Mode Override */
+/* Twitter Dark Mode Override */
   body:first-of-type,
   .AppContent,
   .ProfileHeading-content {
@@ -548,4 +547,10 @@
   .metadata a {
     color: #0ab5fa;
   }
+
+.PlayableMedia-title, .PlayableMedia-description {
+    color: #8999A5
+}
+.account, .tweet, .app {
+	padding: 20px 12px;
 }
