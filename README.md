@@ -19,17 +19,15 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 2. [Install this style](https://userstyles.org/styles/135366/twitter-dark-mode-2017)
 3. That's it 🎉
 
---
 
 ## Found something unstyled or want improvements?
 
 Look at the [current issues](https://github.com/dubstrike/twitter-dark-mode/issues) or submit a new one.
 
---
 
 ## Contributing
 
-_Use 2 spaces for indentation_
+**Use 2 spaces for indentation**
 
 Fork this repo then:
 
@@ -38,7 +36,7 @@ $ yarn install
 $ gulp
 ```
 
-You can make changes to the *.scss* file. It will compile & beautify on save.
+You can make changes to `darkmode.scss`. It will compile & beautify on save.
 Once you're done, push to your branch and submit a PR.
 
 I'll review it and merge it, then update the Userstyles.org theme.
