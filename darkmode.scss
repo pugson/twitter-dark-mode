@@ -205,20 +205,20 @@ body {
     color: #fff !important;
   }
 
-  a:not(.js-nav):not(.global-dm-nav), 
+  a:not(.js-nav):not(.global-dm-nav),
   .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .new-tweets-bar, .remove-background-btn, .stream-item-activity-notification .latest-tweet .tweet-row a:hover, .stream-item-activity-notification .latest-tweet .tweet-row a:focus, .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, .stream-item-activity-notification .latest-tweet .tweet-row a:focus b,
   .Trends .context-trend-item .trend-name,
   a[role="button"]:not(.global-dm-nav):not(.js-moments-tab), li.active,
-  s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s, 
+  s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s,
   .stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
     color: #1da1f2 !important;
   }
 
   .hovercard.profile-card .ProfileCard-content .FollowStatus,
-  .u-textUserColor, 
-  .u-textUserColorHover:active, 
-  .u-textUserColorHover:hover, 
-  .u-textUserColorHover:hover .ProfileTweet-actionCount, 
+  .u-textUserColor,
+  .u-textUserColorHover:active,
+  .u-textUserColorHover:hover,
+  .u-textUserColorHover:hover .ProfileTweet-actionCount,
   .u-textUserColorHover:focus {
     color: #1c9dec !important;
   }
@@ -429,12 +429,12 @@ input:focus, textarea:focus, div[contenteditable="true"]:focus, div[contentedita
   filter: invert(100%) hue-rotate(180deg);
 }
 
-.content-header .header-inner, 
+.content-header .header-inner,
 .content-no-header .no-header-inner,
 .content-inner,
 .content-inner.no-stream-end,
 hr,
-.find-friends-top-subheader, 
+.find-friends-top-subheader,
 .find-friends-bottom-subheader,
 .find-friends-sources,
 .MutedKeywordsAddItemForm,
@@ -493,7 +493,7 @@ body .js-nav-links .active .list-link.js-nav {
 }
 
 .alert,
-.welcome-banner-outer .pane-close, 
+.welcome-banner-outer .pane-close,
 .banner-outer .pane-close {
   color: hsla(214, 27%, 12%, 1);
 }
@@ -504,12 +504,12 @@ body .js-nav-links .active .list-link.js-nav {
   opacity: .35;
 }
 
-.radio input[type=radio], 
+.radio input[type=radio],
 .checkbox input[type=checkbox] {
   box-shadow: inset 0 0 0 10px #aab8c2;
 }
 
-.radio input[type=radio]:checked, 
+.radio input[type=radio]:checked,
 .checkbox input[type=checkbox]:checked {
   box-shadow: none;
 }
@@ -521,8 +521,8 @@ body .js-nav-links .active .list-link.js-nav {
 
 .ep-Header .ep-Title,
 .ep-TweetPerformance.ep-Section .ep-Metric .ep-MetricTopContainer,
-.ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader, 
-.ep-EngagementsTableName, 
+.ep-TweetPerformance.ep-Section .ep-EngagementsTable .ep-EngagementsTableHeader,
+.ep-EngagementsTableName,
 .ep-MetricAnimation,
 .ProfileTweet-fullname.u-linkComplex-target {
   color: rgba(255, 255, 255, .85);
@@ -533,18 +533,18 @@ body .js-nav-links .active .list-link.js-nav {
   color: #f5f8fa;
 }
 
-.ProfileHeaderCard-birthdateText, 
-.ProfileHeaderCard-joinDateText, 
-.ProfileHeaderCard-locationText, 
-.ProfileHeaderCard-onlineHoursText, 
-.ProfileHeaderCard-responsivenessLevelText, 
-.ProfileHeaderCard-vineProfileText, 
+.ProfileHeaderCard-birthdateText,
+.ProfileHeaderCard-joinDateText,
+.ProfileHeaderCard-locationText,
+.ProfileHeaderCard-onlineHoursText,
+.ProfileHeaderCard-responsivenessLevelText,
+.ProfileHeaderCard-vineProfileText,
 .ProfileHeaderCard-periscopeProfileText {
   color: #8899a6;
 }
 
-// unoptimized + inconsistencies in visuals but 
-// i dont care cause im not the best at CSS and this 
+// unoptimized + inconsistencies in visuals but
+// i dont care cause im not the best at CSS and this
 // works for me anyway
 // https://twitter.com/aleksst_/status/825157469748002817 */
 
@@ -679,5 +679,7 @@ body .js-nav-links .active .list-link.js-nav {
 .account, .tweet, .app {
 	padding: 20px 12px;
 }
-
+.QuoteTweet {
+	border: 0;
+}
 }
