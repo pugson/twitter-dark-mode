@@ -289,6 +289,9 @@
   .DashboardProfileCard-avatarLink {
     background-color: #161d27 !important;
   }
+  .QuoteTweet-container {
+    border-radius: 4px;
+  }
   .TwitterCard-container--clickable:hover {
     background: transparent;
   }
