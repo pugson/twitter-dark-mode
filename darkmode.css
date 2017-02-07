@@ -554,4 +554,12 @@
   .account, .tweet, .app {
     padding: 20px 12px;
   }
+  .QuoteTweet {
+    border: 0;
+  }
+  body .btn, body .DashboardProfileCard-avatarImage {
+    background-color: #121921 !important;
+    background-image: linear-gradient(#212c3b, #1c2531) !important;
+    border-color: #2f3d51 !important;
+  }
 }
