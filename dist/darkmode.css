@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://twitter.com") {
   /* Twitter Dark Mode Override */
-  body:first-of-type,
+  body:first-child,
   .AppContent,
   .ProfileHeading-content {
     background-color: #131920;
