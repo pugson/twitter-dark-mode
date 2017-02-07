@@ -1,0 +1,28 @@
+{
+  "name": "twitter-dark-mode",
+  "version": "1.0.0",
+  "description": "CSS override to make twitter.com dark.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/dubstrike/twitter-dark-mode.git",
+  "keywords": [
+    "twitter",
+    "dark",
+    "css",
+    "theme"
+  ],
+  "author": "Wojtek Witkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubstrike/twitter-dark-mode/issues"
+  },
+  "homepage": "https://github.com/dubstrike/twitter-dark-mode#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sassbeautify": "^0.1.0"
+  }
+}
