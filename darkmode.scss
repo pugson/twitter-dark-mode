@@ -680,7 +680,8 @@
   }
 
   .account,
-  .tweet, .app {
+  .tweet:not(.js-original-tweet):not(.descendant),
+  .app {
     padding: 20px 12px;
   }
 
