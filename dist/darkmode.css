@@ -1,6 +1,7 @@
 @-moz-document url-prefix("https://twitter.com") {
   /* Twitter Dark Mode Override */
   html:first-child,
+  body,
   body:first-child,
   .TwitterCard-container--clickable,
   .AppContent,
