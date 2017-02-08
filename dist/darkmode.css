@@ -575,4 +575,18 @@
   .DirectMessage-tweet .QuoteTweet {
     background-color: transparent;
   }
+  .visible-supplement .tweet-content,
+  .activity-truncated-tweet .tweet-content {
+    background: #161d27;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 0 0 0 36px;
+  }
+  .activity-supplement.js-navigable-stream {
+    padding-right: 0 !important;
+    padding-left: 48px !important;
+  }
+  .activity-supplement .view-all-supplements {
+    margin-left: 16px !important;
+  }
 }
