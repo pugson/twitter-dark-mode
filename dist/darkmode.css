@@ -807,4 +807,12 @@
   .vellip:before {
     z-index: initial;
   }
+  .RetweetDialog-tweet {
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-top: -16px;
+  }
+  .tweet > .context {
+    margin-left: 24px;
+  }
 }
