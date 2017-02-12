@@ -443,6 +443,21 @@
     color: #fff;
   }
 
+  .FoundMediaSearch-query {
+    background-color: #212c3b;
+    background-repeat: repeat-x;
+    background-image: none;
+    border-bottom: none;
+  }
+
+  .FoundMediaSearch-content.Caret:after {
+    border-color: #212c3b;
+  }
+
+  .FoundMediaSearch-focusable {
+    border: 3px solid #121921;
+  }
+
   .global-nav .search-input {
     color: #8899a6;
   }
