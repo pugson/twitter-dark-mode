@@ -34,12 +34,15 @@
     box-shadow: inset 0 1px 0 hsla(214, 27%, 25%, 1);
   }
 
+  .copy-found-media-link-container textarea.found-media-link-destination,
+  .copy-link-to-tweet-container textarea.link-to-tweet-destination,
   .t1-select,
   div[contenteditable],
   input,
   textarea {
     background-color: rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #fff;
   }
 
   .PollingCardComposer .PollingCardComposer-pollDuration {
