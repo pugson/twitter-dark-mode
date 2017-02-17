@@ -485,7 +485,6 @@
   .dropdown-caret .caret-inner {
     border-bottom-color: #090c10 !important;
   }
-  .DashboardProfileCard-avatarLink,
   .QuoteTweet-container,
   .ThreadedConversation,
   .ThreadedConversation--loneTweet,
@@ -493,6 +492,9 @@
   .permalink-tweet.focus,
   .permalink-tweet:hover {
     background-color: #161d27 !important;
+  }
+  .DashboardProfileCard-avatarLink {
+    background-color: transparent !important;
   }
   .QuoteTweet-container {
     border-radius: 4px;

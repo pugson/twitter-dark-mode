@@ -542,7 +542,6 @@
     border-bottom-color: hsla(214, 27%, 5%, 1) !important;
   }
 
-  .DashboardProfileCard-avatarLink,
   .QuoteTweet-container,
   .ThreadedConversation,
   .ThreadedConversation--loneTweet,
@@ -550,6 +549,10 @@
   .permalink-tweet.focus,
   .permalink-tweet:hover {
     background-color: hsla(214, 27%, 12%, 1) !important;
+  }
+
+  .DashboardProfileCard-avatarLink {
+    background-color: transparent !important;
   }
 
   .QuoteTweet-container {
