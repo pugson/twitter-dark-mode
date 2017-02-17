@@ -4,10 +4,13 @@
   .AppContent,
   .ProfileHeading-content,
   .TwitterCard-container--clickable,
-  body,
   body:first-child,
   html:first-child {
     background-color: hsla(214, 27%, 10%, 1);
+  }
+
+  body {
+    height: auto !important;
   }
 
   .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
@@ -581,7 +584,8 @@
     color: #8899a6 !important;
   }
 
-  .permalink-container {
+  .permalink-container,
+  .DMActivity--open {
     box-shadow: 0 0 150px 20px black;
     border-radius: 5px;
   }
