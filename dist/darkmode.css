@@ -4,6 +4,17 @@
   .AppContent,
   .ProfileHeading-content,
   .TwitterCard-container--clickable,
+  .compensate-for-scrollbar,
+  .gallery-enabled,
+  .gallery-enabled .global-nav-inner,
+  .grid-enabled,
+  .grid-enabled .global-nav-inner,
+  .modal-enabled,
+  .modal-enabled .global-nav-inner,
+  .overlay-enabled,
+  .overlay-enabled .global-nav-inner,
+  .profile-editing,
+  .profile-editing .global-nav-inner,
   body:first-child,
   html:first-child {
     background-color: #131920;
@@ -520,8 +531,8 @@
   .username {
     color: #8899a6 !important;
   }
-  .permalink-container,
-  .DMActivity--open {
+  .DMActivity--open,
+  .permalink-container {
     box-shadow: 0 0 150px 20px black;
     border-radius: 5px;
   }
