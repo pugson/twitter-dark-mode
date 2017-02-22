@@ -16,12 +16,9 @@
   .profile-editing,
   .profile-editing .global-nav-inner,
   body:first-child,
-  html:first-child {
+  html:first-child,
+  body.logged-in {
     background-color: hsla(214, 27%, 10%, 1);
-  }
-
-  body {
-    height: auto !important;
   }
 
   .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
@@ -923,7 +920,7 @@
   .account,
   .app,
   .tweet:not(.js-original-tweet):not(.descendant) {
-    padding: 20px 12px;
+    padding: 12px 10px;
   }
 
   .QuoteTweet {
@@ -980,6 +977,11 @@
 
   .tweet > .context {
     margin-left: 24px;
+  }
+
+  .modal-footer {
+    text-align: right;
+    border-top: 1px solid #2f3d51;
   }
 }
 
