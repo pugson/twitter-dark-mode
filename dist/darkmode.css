@@ -299,7 +299,9 @@
   body .u-textUserColorHover:hover .ProfileTweet-actionCount {
     color: #1c9dec !important;
   }
-  body #global-actions > li > a {
+  body #global-actions > li > a,
+  body .AdaptiveFiltersBar,
+  body .AdaptiveFiltersBar-item.is-selected {
     border-bottom-color: #1c9dec !important;
   }
   body #global-actions > li > a:focus,
@@ -310,6 +312,9 @@
   body .nav.right-actions > li > button:hover {
     border-bottom-color: #1c9dec !important;
     color: #1c9dec !important;
+  }
+  body .ProfileCard-avatarLink {
+    background-color: #212c3b;
   }
   body #global-actions .new:before,
   body .account-group:focus .fullname,
@@ -803,6 +808,15 @@
   .QuoteTweet {
     border: 0;
   }
+  .message {
+    background: #121921;
+    color: #fff !important;
+    background-color: #121921;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .message .message-text {
+    color: #fff;
+  }
   body .DashboardProfileCard-avatarImage,
   body .btn {
     background-color: #121921 !important;
@@ -850,5 +864,8 @@
   .modal-footer {
     text-align: right;
     border-top: 1px solid #2f3d51;
+  }
+  .ProfileNameTruncated.account-group .Icon--verified:before {
+    left: 30%;
   }
 }

@@ -331,7 +331,9 @@
       color: #1c9dec !important;
     }
 
-    #global-actions > li > a {
+    #global-actions > li > a,
+    .AdaptiveFiltersBar,
+    .AdaptiveFiltersBar-item.is-selected {
       border-bottom-color: #1c9dec !important;
     }
 
@@ -343,6 +345,10 @@
     .nav.right-actions > li > button:hover {
       border-bottom-color: #1c9dec !important;
       color: #1c9dec !important;
+    }
+
+    .ProfileCard-avatarLink {
+      background-color: #212c3b;
     }
 
     #global-actions .new:before,
@@ -930,6 +936,17 @@
     border: 0;
   }
 
+  .message {
+    background: #121921;
+    color: #fff !important;
+    background-color: #121921;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+
+    .message-text {
+      color: #fff;
+    }
+  }
+
   body .DashboardProfileCard-avatarImage,
   body .btn {
     background-color: #121921 !important;
@@ -985,6 +1002,10 @@
   .modal-footer {
     text-align: right;
     border-top: 1px solid #2f3d51;
+  }
+
+  .ProfileNameTruncated.account-group .Icon--verified:before {
+    left: 30%;
   }
 }
 
