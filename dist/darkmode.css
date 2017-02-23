@@ -15,9 +15,9 @@
   .overlay-enabled .global-nav-inner,
   .profile-editing,
   .profile-editing .global-nav-inner,
+  body.logged-in,
   body:first-child,
-  html:first-child,
-  body.logged-in {
+  html:first-child {
     background-color: #131920;
   }
   .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
@@ -684,6 +684,7 @@
   .ProfileHeaderCard-vineProfileText {
     color: #8899a6;
   }
+  .label-head.block-user-label,
   .typeahead .fullname,
   .typeahead a {
     color: #f3f3f3;
@@ -698,7 +699,8 @@
     background-color: #131920;
     border-bottom: 1px solid #2f3d51;
   }
-  .ProfileUserMomentsTimeline .MomentCapsuleSummary {
+  .ProfileUserMomentsTimeline .MomentCapsuleSummary,
+  .block-dialog .block-section {
     background-color: #131920;
     border-bottom: 1px solid #2f3d51;
   }
@@ -706,7 +708,8 @@
     background-color: #131920;
     border-top: 2px solid #2f3d51;
   }
-  .MomentMakerRecommendations-module {
+  .MomentMakerRecommendations-module,
+  .block-dialog .submit-section {
     background-color: #131920;
     border: 1px solid #131920;
   }
