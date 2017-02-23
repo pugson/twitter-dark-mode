@@ -1007,6 +1007,10 @@
   .ProfileNameTruncated.account-group .Icon--verified:before {
     left: 30%;
   }
+
+  .tweet.js-stream-tweet .Icon--verified:before {
+    left: 19%;
+  }
 }
 
 // end @moz-document url-prefix
