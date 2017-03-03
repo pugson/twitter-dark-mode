@@ -205,10 +205,18 @@
   }
   body .DashboardProfileCard-avatarImage,
   body .btn {
-    background-color: #121921 !important;
-    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.35)) !important;
-    border-color: #090c10 !important;
+    background-color: #1c2531 !important;
+    background-image: none;
+    border-color: #161d27 !important;
     color: #fff !important;
+  }
+  body .plain-btn {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent !important;
+  }
+  body .TwitterCard .SummaryCard-image {
+    background-color: #161d27;
   }
   body .blocked .follow-button .blocked-text,
   body .blocked .follow-button:hover .unblock-text,
@@ -817,12 +825,6 @@
   .message .message-text {
     color: #fff;
   }
-  body .DashboardProfileCard-avatarImage,
-  body .btn {
-    background-color: #121921 !important;
-    background-image: linear-gradient(#212c3b, #1c2531) !important;
-    border-color: #2f3d51 !important;
-  }
   .DirectMessage-tweet .QuoteTweet {
     background-color: transparent;
   }
@@ -870,5 +872,12 @@
   }
   .tweet.js-stream-tweet .Icon--verified:before {
     left: 19%;
+  }
+  .activity-popup-dialog-content .tweet {
+    background-color: #1c2531;
+  }
+  .activity-popup-dialog-users .account,
+  .activity-popup-dialog-in-reply-to-user .account {
+    border-color: #2f3d51;
   }
 }
