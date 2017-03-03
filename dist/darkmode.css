@@ -206,9 +206,14 @@
   body .DashboardProfileCard-avatarImage,
   body .btn {
     background-color: #1c2531 !important;
-    background-image: none;
+    background-image: none !important;
     border-color: #161d27 !important;
     color: #fff !important;
+  }
+  body .DashboardProfileCard-avatarImage:hover,
+  body .btn:hover {
+    background-image: none !important;
+    background-color: #131920 !important;
   }
   body .plain-btn {
     background-color: transparent !important;
