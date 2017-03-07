@@ -1020,13 +1020,28 @@
     left: 19%;
   }
 
-  .activity-popup-dialog-content .tweet {
+  .activity-popup-dialog-content .tweet,
+  .AdaptiveFiltersBar,
+  .search.advanced-search {
     background-color: #1c2531;
+    text-shadow: none;
+
+    h1,
+    .txt.geo-picker-container,
+    .chk .td {
+      color: #fff;
+    }
   }
 
   .activity-popup-dialog-users .account,
   .activity-popup-dialog-in-reply-to-user .account {
     border-color: #2f3d51;
+  }
+
+  .input-daterange .input-group-addon {
+    background-color: #212c3a;
+    border: 1px solid #161d27;
+    text-shadow: none;
   }
 }
 
