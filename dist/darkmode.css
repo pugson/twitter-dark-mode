@@ -924,4 +924,9 @@
   .PermalinkProfile-background {
     z-index: 1;
   }
+  .GalleryTweet a.with-icn:not(:hover) .Icon,
+  .GalleryTweet .account-group .fullname,
+  .GalleryTweet .account-group:hover .fullname {
+    color: #f5f8fa;
+  }
 }
