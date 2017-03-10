@@ -30,7 +30,8 @@
     box-shadow: 0 5px 0 0 #0e131a;
   }
   #permalink-overlay,
-  .PermalinkProfile-overlay {
+  .PermalinkProfile-overlay,
+  .ProfileCanopy-inner {
     z-index: 1 !important;
   }
   .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
