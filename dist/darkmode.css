@@ -29,6 +29,10 @@
     background-color: #0e131a;
     box-shadow: 0 5px 0 0 #0e131a;
   }
+  #permalink-overlay,
+  .PermalinkProfile-overlay {
+    z-index: 1 !important;
+  }
   .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
     background: #1da1f2;
   }
@@ -570,9 +574,6 @@
   .tweet.focus {
     z-index: 999999 !important;
   }
-  #profile-hover-container {
-    z-index: 99999999 !important;
-  }
   .ProfileTweet-action .dropdown .dropdown-menu {
     margin: 8px -10px 0;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -903,5 +904,23 @@
     background-color: #212c3a;
     border: 1px solid #161d27;
     text-shadow: none;
+  }
+  .ProfileListItem {
+    background-color: #212c3b;
+    border-bottom: 1px solid #2f3d51;
+    color: #fff;
+  }
+  .ProfileListsTimeline .GridTimeline-items.has-items {
+    border: 1px solid #2f3d51;
+  }
+  .Icon--protected {
+    color: #fff;
+  }
+  #profile-hover-container {
+    z-index: 99999999 !important;
+    display: block;
+  }
+  .PermalinkProfile-background {
+    z-index: 1;
   }
 }
