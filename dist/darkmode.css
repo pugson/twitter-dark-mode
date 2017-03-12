@@ -916,7 +916,8 @@
   }
   .Icon--protected,
   .ProfileCard--wide .ProfileCard-bio,
-  .ProfileCard-userFields {
+  .ProfileCard-userFields,
+  .stream-item .account .content .bio {
     color: #fff;
   }
   #profile-hover-container {
@@ -964,5 +965,12 @@
   #char-count {
     background: #090c10;
     padding: .5rem;
+  }
+  .content-searchbar {
+    background-color: #161d27;
+    border-bottom: 1px solid #2f3d51;
+  }
+  .content-searchbar .search-query {
+    box-shadow: none;
   }
 }
