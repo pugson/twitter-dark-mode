@@ -1056,7 +1056,9 @@
     border: 1px solid #2f3d51;
   }
 
-  .Icon--protected {
+  .Icon--protected,
+  .ProfileCard--wide .ProfileCard-bio,
+  .ProfileCard-userFields {
     color: #fff;
   }
 
