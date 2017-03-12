@@ -1076,6 +1076,49 @@
   .GalleryTweet .account-group:hover .fullname {
     color: #f5f8fa;
   }
+
+  #header {
+    color: #fff;
+    background: #090c10;
+    border-bottom: 1px solid #2f3d51;
+  }
+
+  #header .logo a {
+    border-bottom: none;
+  }
+
+  #session a,
+  #session input,
+  #session button {
+    background: #090c10;
+  }
+
+  body.nofooter {
+    border-bottom: 1px solid #2f3d51;
+  }
+
+  html {
+    background: #131920;
+  }
+
+  .js #session .user-menu {
+    background: #161d27;
+  }
+
+  .user-menu .break-before {
+    border-top: 1px solid #212c3b;
+    background: #090c10;
+    margin-top: 0;
+  }
+
+  #session h2 img {
+    border: 1px solid #212c3b;
+  }
+
+  #char-count {
+    background: #090c10;
+    padding: .5rem;
+  }
 }
 
 // end @moz-document url-prefix
