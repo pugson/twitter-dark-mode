@@ -990,7 +990,8 @@
   .SearchNavigation {
     z-index: 2 !important;
   }
-  body.overlay-enabled .SearchNavigation {
+  body.overlay-enabled .SearchNavigation,
+  body.gallery-enabled .SearchNavigation {
     z-index: 1 !important;
   }
 }
