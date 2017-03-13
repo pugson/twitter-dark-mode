@@ -754,11 +754,14 @@
   .MomentButton--gray:focus {
     color: #f3f3f3;
   }
-  .MomentMakerPage-content {
+  .MomentMakerPage-content,
+  .SidebarCommonModules,
+  body[data-audience-estimate-url] {
     background-color: #131920;
     margin: 0 auto;
   }
-  .ProfileHeaderCardEditing-name .ProfileHeaderCardEditing-editableField {
+  .ProfileHeaderCardEditing-name .ProfileHeaderCardEditing-editableField,
+  body[data-audience-estimate-url] {
     color: #fff;
   }
   .BirthdateSelect-button {
@@ -910,10 +913,14 @@
     border: 1px solid #161d27;
     text-shadow: none;
   }
-  .ProfileListItem {
+  .ProfileListItem,
+  .ep-Header {
     background-color: #212c3b;
     border-bottom: 1px solid #2f3d51;
     color: #fff;
+  }
+  .ep-Campaign .ep-CampaignContainer {
+    background-color: #090c10;
   }
   .ProfileListsTimeline .GridTimeline-items.has-items {
     border: 1px solid #2f3d51;
@@ -921,7 +928,9 @@
   .Icon--protected,
   .ProfileCard--wide .ProfileCard-bio,
   .ProfileCard-userFields,
-  .stream-item .account .content .bio {
+  .stream-item .account .content .bio,
+  .ep-Signup .ep-SignupTextContainer .ep-SignupText,
+  .ep-Signup .ep-SignupTextContainer .ep-RefreshText {
     color: #fff;
   }
   #profile-hover-container {
