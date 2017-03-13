@@ -1,5 +1,5 @@
 # Twitter Dark Mode (2017)
-![preview](http://share.wojtek.im/vWZU+)
+![preview](http://share.wojtek.im/rVgN+)
 
 Dark mode override for [Twitter.com](https://twitter.com) to be used with **Stylish**. Tested only in Chrome.
 
