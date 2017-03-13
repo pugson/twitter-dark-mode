@@ -973,4 +973,10 @@
   .content-searchbar .search-query {
     box-shadow: none;
   }
+  .SearchNavigation {
+    z-index: 2 !important;
+  }
+  body.overlay-enabled .SearchNavigation {
+    z-index: 1 !important;
+  }
 }
