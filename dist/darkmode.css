@@ -764,6 +764,9 @@
   .BirthdateSelect-button {
     background-color: #121921;
   }
+  .dropdown-menu li > a:hover {
+    background-color: #2f3d51 !important;
+  }
   .MomentButton--white {
     background: #212c3b;
     border: 1px solid #fff;
