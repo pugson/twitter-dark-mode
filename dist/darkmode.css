@@ -758,10 +758,11 @@
     background-color: #131920;
     margin: 0 auto;
   }
-  .u-bgUserColor,
-  .u-bgUserColorHover:focus,
-  .u-bgUserColorHover:hover {
-    background-color: #212c3b !important;
+  .ProfileHeaderCardEditing-name .ProfileHeaderCardEditing-editableField {
+    color: #fff;
+  }
+  .BirthdateSelect-button {
+    background-color: #121921;
   }
   .MomentButton--white {
     background: #212c3b;
@@ -924,7 +925,8 @@
     z-index: 99999999 !important;
     display: block;
   }
-  .PermalinkProfile-background {
+  .PermalinkProfile-background,
+  .ProfilePage.is-editing .ProfilePage-editingOverlay {
     z-index: 1;
   }
   .GalleryTweet a.with-icn:not(:hover) .Icon,
