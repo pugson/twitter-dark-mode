@@ -1139,6 +1139,18 @@
     padding: .5rem;
   }
 
+  .tweet-counter {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.55);
+
+    &.warn {
+      color: rgb(168, 84, 36);
+    }
+
+    &.superwarn {
+      color: rgb(204, 51, 54);
+    }
+  }
+
   .content-searchbar {
     background-color: #161d27;
     border-bottom: 1px solid #2f3d51;
