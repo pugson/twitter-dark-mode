@@ -393,6 +393,8 @@
   body .tweet .details.with-icn b,
   body .tweet .time a:focus,
   body .tweet .time a:hover,
+  body a:hover,
+  body a:active,
   body a {
     color: #1c9dec;
   }
@@ -771,7 +773,17 @@
     background-color: #121921;
     color: #66757f;
   }
-  .dropdown-menu li > a:hover {
+  .dropdown-menu li > a:hover,
+  .dropdown-menu li > a:focus,
+  .dropdown-menu .dropdown-link:hover,
+  .dropdown-menu .dropdown-link:focus,
+  .dropdown-menu .dropdown-link.is-focused,
+  .dropdown-menu li:hover .dropdown-link,
+  .dropdown-menu li:focus .dropdown-link,
+  .dropdown-menu .typeahead-recent-search-item.selected,
+  .dropdown-menu .typeahead-saved-search-item.selected,
+  .dropdown-menu .selected a,
+  .dropdown-menu .dropdown-link.selected {
     background-color: #2f3d51 !important;
   }
   .MomentButton--white {
