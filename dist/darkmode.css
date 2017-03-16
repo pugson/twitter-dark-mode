@@ -396,6 +396,9 @@
   body a {
     color: #1c9dec;
   }
+  .btn:focus, .btn.focus, .Button:focus, .EmojiPicker-item.is-focused {
+    box-shadow: 0 0 0 1px rgba(206, 222, 242, 0.26), 0 0 3px 2px rgba(29, 161, 242, 0.42);
+  }
   .MomentCapsuleItemTweet--withText {
     background-color: #090c10;
     border-radius: 4px;
