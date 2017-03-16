@@ -431,6 +431,8 @@
     .tweet .details.with-icn b,
     .tweet .time a:focus,
     .tweet .time a:hover,
+    a:hover,
+    a:active,
     a {
       color: #1c9dec;
     }
@@ -883,7 +885,17 @@
     color: #66757f;
   }
 
-  .dropdown-menu li > a:hover {
+  .dropdown-menu li > a:hover,
+  .dropdown-menu li > a:focus,
+  .dropdown-menu .dropdown-link:hover,
+  .dropdown-menu .dropdown-link:focus,
+  .dropdown-menu .dropdown-link.is-focused,
+  .dropdown-menu li:hover .dropdown-link,
+  .dropdown-menu li:focus .dropdown-link,
+  .dropdown-menu .typeahead-recent-search-item.selected,
+  .dropdown-menu .typeahead-saved-search-item.selected,
+  .dropdown-menu .selected a,
+  .dropdown-menu .dropdown-link.selected {
     background-color: #2f3d51 !important;
   }
 
