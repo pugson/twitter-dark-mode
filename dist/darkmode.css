@@ -761,7 +761,8 @@
   }
   .MomentMakerPage-content,
   .SidebarCommonModules,
-  body[data-audience-estimate-url] {
+  body[data-audience-estimate-url],
+  .DMButtonBar {
     background-color: #131920;
     margin: 0 auto;
   }
@@ -772,6 +773,21 @@
   .BirthdateSelect-button {
     background-color: #121921;
     color: #66757f;
+  }
+  .DMTypeaheadHeader {
+    color: #aab8c2;
+  }
+  .DMTokenizedMultiselectSuggestion.is-highlighted {
+    background-color: #1b95e0;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+  }
+  .DMTokenizedMultiselectSuggestion.is-highlighted .DMTypeaheadItem-title.account-group .fullname {
+    color: #fff !important;
+  }
+  .DMTokenizedMultiselectSuggestion.is-highlighted .username,
+  .DMTokenizedMultiselectSuggestion.is-highlighted .fullname {
+    color: #fff !important;
   }
   .dropdown-menu li > a:hover,
   .dropdown-menu li > a:focus,
