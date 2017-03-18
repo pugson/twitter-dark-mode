@@ -711,7 +711,8 @@
   }
   .label-head.block-user-label,
   .typeahead .fullname,
-  .typeahead a {
+  .typeahead a,
+  .SearchExtrasDropdown .dropdown-menu li > .SearchExtrasDropdown-target {
     color: #f3f3f3;
   }
   .typeahead-items li > a {
