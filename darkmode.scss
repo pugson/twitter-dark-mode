@@ -736,7 +736,7 @@
     }
   }
 
-  body:not(logged-out) .js-nav-links .active .list-link.js-nav {
+  body .js-nav-links .active .list-link.js-nav {
     background-color: #1da1f2;
     color: #fff;
 

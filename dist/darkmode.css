@@ -647,11 +647,11 @@
   body .js-nav-links .list-link:hover {
     background-color: #2f3d51;
   }
-  body:not(logged-out) .js-nav-links .active .list-link.js-nav {
+  body .js-nav-links .active .list-link.js-nav {
     background-color: #1da1f2;
     color: #fff;
   }
-  body:not(logged-out) .js-nav-links .active .list-link.js-nav:hover {
+  body .js-nav-links .active .list-link.js-nav:hover {
     color: rgba(255, 255, 255, 0.75);
   }
   .module li:first-child .list-link {
