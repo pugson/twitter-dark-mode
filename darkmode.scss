@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://twitter.com") {
+@-moz-document regexp("^(?!.*tweetdeck\\.twitter).*(.*twitter\\.com.*)") {
   /* Twitter Dark Mode Override */
   #page-outer,
   .AppContent,
@@ -19,158 +19,6 @@
   body:first-child,
   html:first-child {
     background-color: hsla(214, 27%, 10%, 1);
-  }
-
-  .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
-    background-color: #212c3a;
-    border-radius: 0;
-    box-shadow: 0 5px 0 0 #212c3a;
-  }
-
-  .PermalinkOverlay-content .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
-    background-color: #0e131a;
-    box-shadow: 0 5px 0 0 #0e131a;
-  }
-
-  #permalink-overlay,
-  .PermalinkProfile-overlay,
-  .ProfileCanopy-inner {
-    z-index: 1 !important;
-  }
-
-  .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
-    background: #1da1f2;
-  }
-
-  .TwitterCard .PollXChoice-optionContainer {
-    color: #fff;
-  }
-
-  .PollingCardComposer {
-    background-color: hsla(214, 27%, 15%, 1);
-    box-shadow: inset 0 1px 0 hsla(214, 27%, 25%, 1);
-  }
-
-  .copy-found-media-link-container textarea.found-media-link-destination,
-  .copy-link-to-tweet-container textarea.link-to-tweet-destination,
-  .t1-select,
-  div[contenteditable],
-  input,
-  textarea {
-    background-color: rgba(0, 0, 0, 0.15);
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    color: #fff;
-  }
-
-  .PollingCardComposer .PollingCardComposer-pollDuration {
-    border-top: solid 1px hsla(214, 27%, 25%, 1);
-  }
-
-  .RichEditor,
-  .TweetBoxAttachments {
-    border-color: hsla(214, 27%, 25%, 1);
-  }
-
-  .Gallery-content {
-    background-color: transparent;
-  }
-
-  .DMActivity-body,
-  .DMDivider,
-  .EmojiBar-icon,
-  .EmojiBar-suggestions,
-  .GalleryTweet .tweet,
-  .MomentMakerHomeModule,
-  .MoveableModule,
-  .ProfileAvatar,
-  .ProfileCanopy-navBar,
-  .ProfileCard,
-  .ProfileNav-item--userActions,
-  .ProfileSidebar .ProfileLifelineInfo,
-  .ProfileSidebar .RelatedUsers,
-  .ProfileSidebar .TweetImpressionsModule,
-  .WhoToFollow,
-  .global-nav-inner,
-  .module,
-  .module .flex-module,
-  .stream-item:not(.no-header-background-module),
-  .tweet-form .thumbnail-container {
-    background-color: hsla(214, 28%, 18%, 1) !important;
-  }
-
-  #global-tweet-dialog .modal-tweet .tweet,
-  #global-tweet-dialog .modal-tweet .tweet:hover {
-    background: transparent;
-  }
-
-  .ComposerThumbnail,
-  .DMInboxItem,
-  .MomentMakerHomeModule,
-  .ProfileAvatar,
-  .ProfileCanopy-navBar,
-  .ProfileCard,
-  .ProfileHeading-content,
-  .ProfileSidebar .ProfileLifelineInfo,
-  .ProfileSidebar .RelatedUsers,
-  .ProfileSidebar .TweetImpressionsModule,
-  .PromptbirdPrompt-streamItem.separated-module + .stream-item:not(.no-header-background-module),
-  .TwitterCard-container,
-  .WhoToFollow,
-  .content-header,
-  .content-no-header,
-  .module,
-  .module .flex-module,
-  .stream-item + .stream-item.separated-module:not(.no-header-background-module),
-  .stream-item.separated-module + .stream-item:not(.no-header-background-module),
-  .stream-item:not(.no-header-background-module),
-  .tweet,
-  .tweet-form .thumbnail-container {
-    border-color: hsla(214, 27%, 25%, 1) !important;
-  }
-
-  .ComposerThumbnail {
-    background: transparent;
-    box-shadow: none;
-    border-color: transparent !important;
-  }
-
-  .tweet-form .thumbnail-container {
-    box-shadow: none;
-  }
-
-  .DirectMessage--received .Caret:before {
-    border-color: hsla(214, 27%, 15%, 1) !important;
-  }
-
-  .DMInboxItem:hover,
-  .DirectMessage--received .DirectMessage-message,
-  .conversation-module .conversation-tweet-item .tweet:hover,
-  .tweet:hover {
-    background-color: hsla(214, 27%, 15%, 1) !important;
-  }
-
-  .DMInboxItem.is-unread,
-  .FollowStatus {
-    background-color: hsla(214, 60%, 20%, 1) !important;
-  }
-
-  .DMActivity-header,
-  .DMComposer-container,
-  .global-nav .search-input,
-  .modal-header,
-  .u-bgUserColorLightest {
-    background-color: hsla(214, 27%, 10%, 1) !important;
-    border-color: hsla(214, 27%, 25%, 1) !important;
-  }
-
-  .DashboardProfileCard,
-  .DashboardProfileCard-bg,
-  .ListCreationModule,
-  .ProfileCard-bg,
-  .top-timeline-tweetbox .timeline-tweet-box,
-  .tweet-box {
-    background-color: hsla(214, 27%, 20%, 1) !important;
-    border-color: hsla(214, 27%, 25%, 1) !important;
   }
 
   // Bump up the specificity
@@ -195,6 +43,158 @@
       background-color: hsla(214, 27%, 15%, 1) !important;
       border-color: hsla(214, 27%, 25%, 1) !important;
       color: white !important;
+    }
+
+    .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+      background-color: #212c3a;
+      border-radius: 0;
+      box-shadow: 0 5px 0 0 #212c3a;
+    }
+
+    .PermalinkOverlay-content .TwitterCardsGrid-col--12 .PollXChoice-pollWrapper {
+      background-color: #0e131a;
+      box-shadow: 0 5px 0 0 #0e131a;
+    }
+
+    #permalink-overlay,
+    .PermalinkProfile-overlay,
+    .ProfileCanopy-inner {
+      z-index: 1 !important;
+    }
+
+    .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+      background: #1da1f2;
+    }
+
+    .TwitterCard .PollXChoice-optionContainer {
+      color: #fff;
+    }
+
+    .PollingCardComposer {
+      background-color: hsla(214, 27%, 15%, 1);
+      box-shadow: inset 0 1px 0 hsla(214, 27%, 25%, 1);
+    }
+
+    .copy-found-media-link-container textarea.found-media-link-destination,
+    .copy-link-to-tweet-container textarea.link-to-tweet-destination,
+    .t1-select,
+    div[contenteditable],
+    input,
+    textarea {
+      background-color: rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      color: #fff;
+    }
+
+    .PollingCardComposer .PollingCardComposer-pollDuration {
+      border-top: solid 1px hsla(214, 27%, 25%, 1);
+    }
+
+    .RichEditor,
+    .TweetBoxAttachments {
+      border-color: hsla(214, 27%, 25%, 1);
+    }
+
+    .Gallery-content {
+      background-color: transparent;
+    }
+
+    .DMActivity-body,
+    .DMDivider,
+    .EmojiBar-icon,
+    .EmojiBar-suggestions,
+    .GalleryTweet .tweet,
+    .MomentMakerHomeModule,
+    .MoveableModule,
+    .ProfileAvatar,
+    .ProfileCanopy-navBar,
+    .ProfileCard,
+    .ProfileNav-item--userActions,
+    .ProfileSidebar .ProfileLifelineInfo,
+    .ProfileSidebar .RelatedUsers,
+    .ProfileSidebar .TweetImpressionsModule,
+    .WhoToFollow,
+    .global-nav-inner,
+    .module,
+    .module .flex-module,
+    .stream-item:not(.no-header-background-module),
+    .tweet-form .thumbnail-container {
+      background-color: hsla(214, 28%, 18%, 1) !important;
+    }
+
+    #global-tweet-dialog .modal-tweet .tweet,
+    #global-tweet-dialog .modal-tweet .tweet:hover {
+      background: transparent;
+    }
+
+    .ComposerThumbnail,
+    .DMInboxItem,
+    .MomentMakerHomeModule,
+    .ProfileAvatar,
+    .ProfileCanopy-navBar,
+    .ProfileCard,
+    .ProfileHeading-content,
+    .ProfileSidebar .ProfileLifelineInfo,
+    .ProfileSidebar .RelatedUsers,
+    .ProfileSidebar .TweetImpressionsModule,
+    .PromptbirdPrompt-streamItem.separated-module + .stream-item:not(.no-header-background-module),
+    .TwitterCard-container,
+    .WhoToFollow,
+    .content-header,
+    .content-no-header,
+    .module,
+    .module .flex-module,
+    .stream-item + .stream-item.separated-module:not(.no-header-background-module),
+    .stream-item.separated-module + .stream-item:not(.no-header-background-module),
+    .stream-item:not(.no-header-background-module),
+    .tweet,
+    .tweet-form .thumbnail-container {
+      border-color: hsla(214, 27%, 25%, 1) !important;
+    }
+
+    .ComposerThumbnail {
+      background: transparent;
+      box-shadow: none;
+      border-color: transparent !important;
+    }
+
+    .tweet-form .thumbnail-container {
+      box-shadow: none;
+    }
+
+    .DirectMessage--received .Caret:before {
+      border-color: hsla(214, 27%, 15%, 1) !important;
+    }
+
+    .DMInboxItem:hover,
+    .DirectMessage--received .DirectMessage-message,
+    .conversation-module .conversation-tweet-item .tweet:hover,
+    .tweet:hover {
+      background-color: hsla(214, 27%, 15%, 1) !important;
+    }
+
+    .DMInboxItem.is-unread,
+    .FollowStatus {
+      background-color: hsla(214, 60%, 20%, 1) !important;
+    }
+
+    .DMActivity-header,
+    .DMComposer-container,
+    .global-nav .search-input,
+    .modal-header,
+    .u-bgUserColorLightest {
+      background-color: hsla(214, 27%, 10%, 1) !important;
+      border-color: hsla(214, 27%, 25%, 1) !important;
+    }
+
+    .DashboardProfileCard,
+    .DashboardProfileCard-bg,
+    .ListCreationModule,
+    .ProfileCard-bg,
+    .top-timeline-tweetbox .timeline-tweet-box,
+    .tweet-box {
+      background-color: hsla(214, 27%, 20%, 1) !important;
+      border-color: hsla(214, 27%, 25%, 1) !important;
     }
 
     .hovercard .profile-social-proof {
@@ -736,7 +736,7 @@
     }
   }
 
-  body .js-nav-links .active .list-link.js-nav {
+  body:not(logged-out) .js-nav-links .active .list-link.js-nav {
     background-color: #1da1f2;
     color: #fff;
 
