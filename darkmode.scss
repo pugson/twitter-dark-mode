@@ -595,6 +595,10 @@
     background-color: hsla(214, 27%, 12%, 1) !important;
   }
 
+  .tweet.focus {
+    z-index: 1 !important;
+  }
+
   .DashboardProfileCard-avatarLink {
     background-color: transparent !important;
   }

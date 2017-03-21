@@ -532,6 +532,9 @@
   .permalink-tweet:hover {
     background-color: #161d27 !important;
   }
+  .tweet.focus {
+    z-index: 1 !important;
+  }
   .DashboardProfileCard-avatarLink {
     background-color: transparent !important;
   }
