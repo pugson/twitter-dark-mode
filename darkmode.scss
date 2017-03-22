@@ -1221,6 +1221,10 @@
   body.gallery-enabled .SearchNavigation {
     z-index: 1 !important;
   }
+
+  .permalink-container > .permalink-footer {
+    margin-top: 0;
+  }
 }
 
 // end @moz-document url-prefix
