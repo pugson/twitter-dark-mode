@@ -612,6 +612,11 @@
     color: #161d27;
     text-decoration: underline;
   }
+  ._1qIZ_GUf,
+  ._3DNbvirW {
+    background: #121921 !important;
+    border-color: transparent !important;
+  }
   .pushstate-spinner,
   .spinner {
     filter: invert(100%) hue-rotate(180deg);
