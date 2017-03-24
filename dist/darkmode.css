@@ -152,8 +152,7 @@
   body .tweet:hover {
     background-color: #1c2531 !important;
   }
-  body .DMInboxItem.is-unread,
-  body .FollowStatus {
+  body .DMInboxItem.is-unread {
     background-color: #142f52 !important;
   }
   body .DMActivity-header,
@@ -165,12 +164,14 @@
     border-color: #2f3d51 !important;
   }
   body .DashboardProfileCard,
-  body .DashboardProfileCard-bg,
   body .ListCreationModule,
-  body .ProfileCard-bg,
   body .top-timeline-tweetbox .timeline-tweet-box,
   body .tweet-box {
     background-color: #253141 !important;
+    border-color: #2f3d51 !important;
+  }
+  body .DashboardProfileCard-bg,
+  body .ProfileCard-bg {
     border-color: #2f3d51 !important;
   }
   body .hovercard .profile-social-proof {
@@ -309,7 +310,6 @@
   body s {
     color: #1da1f2 !important;
   }
-  body .hovercard.profile-card .ProfileCard-content .FollowStatus,
   body .u-textUserColor,
   body .u-textUserColorHover:active,
   body .u-textUserColorHover:focus,
@@ -407,6 +407,14 @@
   }
   .new-tweets-bar:hover {
     background-color: rgba(61, 171, 245, 0.3);
+  }
+  .hovercard.profile-card .ProfileCard-content .FollowStatus,
+  .FollowStatus {
+    background-color: #17bf63 !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #fff !important;
+    font-weight: 500;
   }
   .tweet .context .pretty-link b,
   .tweet .context .pretty-link s {

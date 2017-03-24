@@ -173,8 +173,7 @@
       background-color: hsla(214, 27%, 15%, 1) !important;
     }
 
-    .DMInboxItem.is-unread,
-    .FollowStatus {
+    .DMInboxItem.is-unread {
       background-color: hsla(214, 60%, 20%, 1) !important;
     }
 
@@ -188,12 +187,15 @@
     }
 
     .DashboardProfileCard,
-    .DashboardProfileCard-bg,
     .ListCreationModule,
-    .ProfileCard-bg,
     .top-timeline-tweetbox .timeline-tweet-box,
     .tweet-box {
       background-color: hsla(214, 27%, 20%, 1) !important;
+      border-color: hsla(214, 27%, 25%, 1) !important;
+    }
+
+    .DashboardProfileCard-bg,
+    .ProfileCard-bg {
       border-color: hsla(214, 27%, 25%, 1) !important;
     }
 
@@ -343,7 +345,6 @@
       color: #1da1f2 !important;
     }
 
-    .hovercard.profile-card .ProfileCard-content .FollowStatus,
     .u-textUserColor,
     .u-textUserColorHover:active,
     .u-textUserColorHover:focus,
@@ -449,6 +450,15 @@
 
   .new-tweets-bar:hover {
     background-color: hsla(204, 90%, 60%, 0.3);
+  }
+
+  .hovercard.profile-card .ProfileCard-content .FollowStatus,
+  .FollowStatus {
+    background-color: #17bf63 !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #fff !important;
+    font-weight: 500;
   }
 
   .tweet .context .pretty-link b,
