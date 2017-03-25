@@ -1050,6 +1050,11 @@
     background-color: #161d27;
     border-bottom: 1px solid #2f3d51;
   }
+  .ProfilePage-timelineHeader,
+  .ProfileTimeline-separationModule {
+    background-color: #212c3b;
+    border-color: #2f3d51 !important;
+  }
   .content-searchbar .search-query {
     box-shadow: none;
   }
