@@ -1068,4 +1068,16 @@
   .permalink-container > .permalink-footer {
     margin-top: 0;
   }
+  .DMPopover-content {
+    background-color: #090c10;
+  }
+  .DMPopover-content.Caret:after {
+    border-color: #090c10;
+  }
+  .TypingIndicatorMessageBubble-dotContainer {
+    background: #161d27;
+  }
+  .TypingIndicatorMessageBubble.Caret::before {
+    border-color: #161d27;
+  }
 }
