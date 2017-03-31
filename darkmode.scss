@@ -1261,6 +1261,38 @@
   .TypingIndicatorMessageBubble.Caret::before {
     border-color: #161d27;
   }
+
+  body .reply-users-btn {
+    color: #8899a6 !important;
+
+    span b {
+      color: #1c9dec !important;
+    }
+  }
+
+  .activity-popup-dialog-users {
+    border-top: 1px solid #2f3d51;
+    background-color: #121921;
+  }
+
+  #activity-popup-dialog.reply-users-popup .activity-popup-dialog-users .account,
+  #activity-popup-dialog.reply-users-popup .activity-popup-dialog-other-reply-users {
+    border-top: 1px solid #2f3d51;
+  }
+
+  .bio.u-dir {
+    background-color: transparent !important;
+  }
+
+  .Checkbox:checked, .Checkbox-fake {
+    background: linear-gradient(to bottom, #212c3b, #090c10);
+    border: 1px solid #161d27;
+    border-radius: 3px;
+  }
+
+  #activity-popup-dialog .modal-body {
+    background-color: #212c3b;
+  }
 }
 
 // end @moz-document url-prefix
