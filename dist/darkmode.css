@@ -1071,10 +1071,13 @@
   .DMPopover-content {
     background-color: #090c10;
   }
-  .DMPopover-content.Caret:after {
+  .DMPopover-content.Caret:after,
+  .DMTrustRequest,
+  .DMComposer-attachment {
     border-color: #090c10;
   }
-  .TypingIndicatorMessageBubble-dotContainer {
+  .TypingIndicatorMessageBubble-dotContainer,
+  .DMTrustRequest {
     background: #161d27;
   }
   .TypingIndicatorMessageBubble.Caret::before {
