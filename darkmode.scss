@@ -806,7 +806,8 @@
   }
 
   .stream .app,
-  .stream .js-actionable-user.account {
+  .stream .js-actionable-user.account,
+  .RichEditor.is-fakeFocus ~ .TweetBoxAttachments {
     border-color: #2f3d51;
   }
 
