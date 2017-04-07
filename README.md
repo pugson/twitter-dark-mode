@@ -1,7 +1,7 @@
 # Twitter Dark Mode (2017)
 ![preview](http://share.wojtek.im/rVgN+)
 
-Dark mode override for [Twitter.com](https://twitter.com) to be used with **Stylish**. Tested only in Chrome.
+Dark mode override for [Twitter.com](https://twitter.com) and [mobile.twitter.com](https://mobile.twitter.com) to be used with **Stylish**. Tested only in Chrome.
 
 - [Stylish for Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe)
 - [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome)
