@@ -707,6 +707,11 @@
     color: #fff !important;
   }
 
+  .ProfileListsTimeline .GridTimeline-end:not(.has-items) {
+    background-color: #161d27;
+    border: 1px solid #2f3d51;
+  }
+
   .DirectMessage.DirectMessage--sent .js-display-url {
     color: #161d27;
     text-decoration: underline;
