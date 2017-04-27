@@ -1117,6 +1117,10 @@
   #activity-popup-dialog .modal-body {
     background-color: #212c3b;
   }
+  .ProfileNameTruncated .UserBadges .Icon {
+    padding-right: 0 !important;
+    padding-left: 2px;
+  }
 }
 
 @-moz-document url-prefix("https://mobile.twitter.com") {

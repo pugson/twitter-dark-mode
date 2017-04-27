@@ -1306,6 +1306,11 @@
   #activity-popup-dialog .modal-body {
     background-color: #212c3b;
   }
+
+  .ProfileNameTruncated .UserBadges .Icon {
+    padding-right: 0 !important;
+    padding-left: 2px;
+  }
 }
 
 // end @moz-document url-prefix
