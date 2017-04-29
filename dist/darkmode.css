@@ -1086,8 +1086,16 @@
     border-color: #090c10;
   }
   .TypingIndicatorMessageBubble-dotContainer,
-  .DMTrustRequest {
+  .DMTrustRequest,
+  .PromptbirdPrompt {
     background: #161d27;
+  }
+  .PromptbirdPrompt--inline,
+  .PromptbirdPrompt--inlinePointer {
+    border-color: #1da1f2;
+  }
+  .PromptbirdPrompt-title {
+    color: #fff;
   }
   .TypingIndicatorMessageBubble.Caret::before {
     border-color: #161d27;
