@@ -334,6 +334,9 @@
   body .ProfileCard-avatarLink {
     background-color: #212c3b;
   }
+  body .tweet.dismissible-content.focus {
+    z-index: 1 !important;
+  }
   body #global-actions .new:before,
   body .account-group:focus .fullname,
   body .account-group:hover .fullname,
@@ -543,9 +546,6 @@
   .permalink-tweet:hover {
     background-color: #161d27 !important;
   }
-  .tweet.focus {
-    z-index: 1 !important;
-  }
   .DashboardProfileCard-avatarLink {
     background-color: transparent !important;
   }
@@ -593,9 +593,6 @@
   }
   .u-bgUserColorLighter {
     background-color: #2f3d51 !important;
-  }
-  .tweet.focus {
-    z-index: 999999 !important;
   }
   .ProfileTweet-action .dropdown .dropdown-menu {
     margin: 8px -10px 0;
