@@ -68,8 +68,13 @@
 
     .TwitterCard .PollXChoice-optionContainer,
     .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
-    .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation {
+    .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
+    .LiveVideoHomePageModule-eventTitle {
       color: #fff;
+    }
+
+    .MomentMediaItem {
+      background-color: #212c3b;
     }
 
     .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-arrow,
@@ -351,6 +356,10 @@
     li.active,
     s {
       color: #1da1f2 !important;
+    }
+
+    li.js-moments-tab:not(.active) a.js-nav {
+      color: #66757f !important;
     }
 
     .u-textUserColor,
