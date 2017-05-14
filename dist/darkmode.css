@@ -58,8 +58,15 @@
   body .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
     background: #1da1f2;
   }
-  body .TwitterCard .PollXChoice-optionContainer {
+  body .TwitterCard .PollXChoice-optionContainer,
+  body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
+  body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation {
     color: #fff;
+  }
+  body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-arrow,
+  body .PromptbirdPrompt--dashboardProfile {
+    background-color: #161d27;
+    border-color: #2f3d51;
   }
   body .PollingCardComposer {
     background-color: #1c2531;

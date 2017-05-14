@@ -66,8 +66,16 @@
       background: #1da1f2;
     }
 
-    .TwitterCard .PollXChoice-optionContainer {
+    .TwitterCard .PollXChoice-optionContainer,
+    .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
+    .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation {
       color: #fff;
+    }
+
+    .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-arrow,
+    .PromptbirdPrompt--dashboardProfile {
+      background-color: #161d27;
+      border-color: #2f3d51;
     }
 
     .PollingCardComposer {
