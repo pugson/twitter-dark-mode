@@ -64,6 +64,9 @@
   body .LiveVideoHomePageModule-eventTitle {
     color: #fff;
   }
+  body .EdgeButton--secondary {
+    background-color: #212c3a;
+  }
   body .MomentMediaItem {
     background-color: #212c3b;
   }
