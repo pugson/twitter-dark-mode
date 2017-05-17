@@ -61,11 +61,15 @@
   body .TwitterCard .PollXChoice-optionContainer,
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
-  body .LiveVideoHomePageModule-eventTitle {
+  body .LiveVideoHomePageModule-eventTitle,
+  body .personalization-field {
     color: #fff;
   }
   body .EdgeButton--secondary {
     background-color: #212c3a;
+  }
+  body .t1-previous-page {
+    color: #1da1f2;
   }
   body .MomentMediaItem {
     background-color: #212c3b;
