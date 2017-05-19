@@ -678,7 +678,10 @@
     background-color: #2f3d51;
   }
   #notifications-optout-all-top,
-  .notifications-prompt-container {
+  .notifications-prompt-container,
+  .ThreadedConversation-showMoreThreads,
+  .ThreadedConversation-showMoreThreadsButton,
+  .ThreadedConversation--header {
     background-color: #2f3d51;
     border-color: #2f3d51;
     color: #fff;
