@@ -570,6 +570,71 @@
   .DashboardProfileCard-avatarLink {
     background-color: transparent !important;
   }
+  .Banner--aboveNav {
+    background-color: #090c10;
+    color: #ccc;
+  }
+  .Banner--aboveNav + .Banner--aboveNav {
+    border-top: 1px solid #2f3d51;
+  }
+  .front-page-photo-set .front-bg {
+    display: none;
+  }
+  .front-page-photo-set .front-signin,
+  .front-page-photo-set .front-signup {
+    background: #2f3d51;
+    border-color: #090c10 !important;
+  }
+  .front-page-photo-set .front-signin .text-input, .front-page-photo-set .front-signup .text-input,
+  .front-page-photo-set .front-signup {
+    border: 1px solid #1c2531;
+    box-shadow: inset 0 1px 0 #2f3d51, #2f3d51 0 1px 0;
+    color: #fff !important;
+  }
+  .front-signup h2, .front-signin h2 {
+    border-bottom: 1px solid #212c3b;
+    box-shadow: 0 1px 0 #212c3b;
+    color: #8899a6;
+    text-shadow: none;
+  }
+  .front-signup h2 strong, .front-signin h2 strong {
+    color: #fff;
+  }
+  .login-responsive .page-canvas {
+    background-color: #2f3d51;
+    box-shadow: 0 0 225px #212c3b;
+  }
+  .signin-wrapper h1, .signup-wrapper h1, .resend-password-wrapper h1, .mobile-complete-wrapper h1 {
+    color: #fff;
+  }
+  .signin .remember {
+    color: #aab8c2;
+  }
+  .login-responsive .mobile, .route-resend-password .mobile, .contact-support {
+    background-color: #212c3b;
+    color: #657786;
+  }
+  .global-nav--newLoggedOut #signin-dropdown {
+    background-color: #212c3a;
+  }
+  .PageDownload .SmsAppLinkForm .input-prepend #sms-dial-code {
+    background-color: #212c3b;
+    border-color: #2f3d51;
+  }
+  .LoginForm-rememberForgot a,
+  .session-dropdown .dropdown-toggle.js-dropdown-toggle {
+    background: transparent !important;
+  }
+  .front-signup .btn {
+    box-shadow: 0 1px 0 #212c3b;
+  }
+  .front-signin .remember, .front-signin .forgot, .front-signin .separator,
+  .front-page-photo-set .front-signin .forgot {
+    text-shadow: none;
+  }
+  .front-signin .submit {
+    box-shadow: 0 1px 0 #2f3d51;
+  }
   .QuoteTweet-container {
     border-radius: 4px;
   }
