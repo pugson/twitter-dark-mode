@@ -676,7 +676,9 @@
     text-shadow: none;
   }
 
-  .front-signup h2 strong, .front-signin h2 strong {
+  .front-signup h2 strong, .front-signin h2 strong,
+  .PageDownload-description,
+  .PageDownload-title {
     color: #fff;
   }
 
@@ -696,6 +698,12 @@
   .login-responsive .mobile, .route-resend-password .mobile, .contact-support {
     background-color: #212c3b;
     color: #657786;
+  }
+
+  .search-404 input[type=text] {
+    box-shadow: inset 0 2px 4px #1c2531, 0 1px 0 #1c2531;
+    background-color: #1c2531;
+    border-color: #1c2531;
   }
 
   .global-nav--newLoggedOut #signin-dropdown {
