@@ -667,6 +667,10 @@
   .ProfilePage-emptyModuleHeader {
     color: #8899a6 !important;
   }
+  .ProfileAlerts .content {
+    background-color: #121921;
+    color: #fff;
+  }
   .DMActivity--open,
   .permalink-container {
     box-shadow: 0 0 150px 20px black;
