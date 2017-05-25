@@ -881,6 +881,15 @@
     background-color: #2f3d51;
     border: 1px solid #2f3d51;
   }
+  .EdgeButton--tertiary {
+    background-color: #1c2531;
+    border: 1px solid #aab8c2;
+    color: #f5f8fa;
+  }
+  .EdgeButton--tertiary:hover {
+    background-color: #2f3d51;
+    color: #fff;
+  }
   .MomentButton--gray,
   .MomentButton--gray:focus {
     color: #f3f3f3;
