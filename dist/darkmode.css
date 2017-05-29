@@ -843,7 +843,8 @@
   .typeahead-items li > a {
     color: #f3f3f3;
   }
-  .typeahead strong {
+  .typeahead strong,
+  .TweetImpressionsModule-text {
     color: #b3b3b3;
   }
   .MomentGuideNavigation {
@@ -891,7 +892,8 @@
     color: #fff;
   }
   .MomentButton--gray,
-  .MomentButton--gray:focus {
+  .MomentButton--gray:focus,
+  .activity-popup-users-hidden {
     color: #f3f3f3;
   }
   .MomentMakerPage-content,
@@ -902,8 +904,12 @@
     margin: 0 auto;
   }
   .ProfileHeaderCardEditing-name .ProfileHeaderCardEditing-editableField,
-  body[data-audience-estimate-url] {
+  body[data-audience-estimate-url],
+  .WhoToFollowViewAllPage .content-header #content-main-heading {
     color: #fff;
+  }
+  .wtf-module .import-prompt .cta {
+    border-bottom: 1px solid #2f3d51;
   }
   .BirthdateSelect-button {
     background-color: #121921;
