@@ -231,6 +231,27 @@
       color: hsla(204, 90%, 60%, 1);
     }
 
+    .HomeEmptyTimeline,
+    .ProfilePrefilledTweet .tweet {
+      background-color: #090c10;
+      border: 1px solid #2f3d51;
+    }
+
+    .HomeEmptyTimeline-header,
+    .ProfileOnboarding-title,
+    .ProfileOnboarding-subtitle,
+    .TweetTextSize.TweetTextSize--xlarge {
+      color: #fff;
+    }
+
+    .ProfileOnboarding-caret {
+      border-bottom: 10px solid #2f3d51;
+    }
+
+    .ProfileOnboarding-caretInner {
+      border-bottom: 9px solid #212c3b;
+    }
+
     .DashboardProfileCard-name,
     .ProfileHeaderCard,
     .ProfileHeading-toggleItem.is-active,

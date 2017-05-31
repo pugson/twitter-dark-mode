@@ -200,6 +200,23 @@
   body .stream-item-activity-notification .stream-item-activity-header .pretty-link b {
     color: #3dabf5;
   }
+  body .HomeEmptyTimeline,
+  body .ProfilePrefilledTweet .tweet {
+    background-color: #090c10;
+    border: 1px solid #2f3d51;
+  }
+  body .HomeEmptyTimeline-header,
+  body .ProfileOnboarding-title,
+  body .ProfileOnboarding-subtitle,
+  body .TweetTextSize.TweetTextSize--xlarge {
+    color: #fff;
+  }
+  body .ProfileOnboarding-caret {
+    border-bottom: 10px solid #2f3d51;
+  }
+  body .ProfileOnboarding-caretInner {
+    border-bottom: 9px solid #212c3b;
+  }
   body .DashboardProfileCard-name,
   body .ProfileHeaderCard,
   body .ProfileHeading-toggleItem.is-active,
