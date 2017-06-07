@@ -1012,11 +1012,6 @@
   .PlayableMedia-title {
     color: #8999A5;
   }
-  .account,
-  .app,
-  .tweet:not(.js-original-tweet):not(.descendant) {
-    padding: 12px 10px;
-  }
   .QuoteTweet {
     border: 0;
   }
