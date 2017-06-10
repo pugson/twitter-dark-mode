@@ -490,6 +490,10 @@
   .EmojiPicker-query input[type=text].EmojiPicker-queryInput {
     color: #fff;
   }
+  .EdgeButton--primary:focus,
+  .EdgeButton--secondary:focus {
+    box-shadow: 0 0 0 2px #212c3b, 0 0 0 4px rgba(10, 181, 250, 0.5);
+  }
   .FoundMediaSearch-query {
     background-color: #212c3b;
     background-repeat: repeat-x;
