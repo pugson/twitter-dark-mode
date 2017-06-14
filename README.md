@@ -29,8 +29,6 @@ Look at the [current issues](https://github.com/dubstrike/twitter-dark-mode/issu
 
 ## Contributing
 
-**Use 2 spaces for indentation**
-
 Fork this repo then:
 
 ```
@@ -43,7 +41,7 @@ Once you're done, push to your branch and submit a PR.
 
 I'll review it and merge it, then update the Userstyles.org theme.
 
---
+---
 
 You can [follow me on Twitter](https://twitter.com/dubstrike) if you want to.
 
