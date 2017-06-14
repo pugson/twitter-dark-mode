@@ -1229,7 +1229,10 @@
   .PromptbirdPrompt--inlinePointer {
     border-color: #1da1f2;
   }
-  .PromptbirdPrompt-title {
+  .PromptbirdPrompt-title,
+  body:not(.edge-design) .ProfileHeaderCard-locationText,
+  body:not(.edge-design) .ProfileHeaderCard-joinDateText,
+  body:not(.edge-design) .ProfileHeaderCard-birthdateText {
     color: #fff;
   }
   .TypingIndicatorMessageBubble.Caret::before {
