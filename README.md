@@ -17,7 +17,7 @@ There are still some things that need to be tweaked, so treat this as an alpha t
 
 ### The Easy Way (with auto-updates)
 
-1. Download Stylish for your browser. Links are above.
+1. Download Stylus or Stylish for your browser. Links are above.
 2. [Install this style](https://userstyles.org/styles/135366/twitter-dark-mode-2017)
 3. That's it 🎉
 
