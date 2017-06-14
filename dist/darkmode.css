@@ -164,6 +164,10 @@
   body .DirectMessage--received .Caret:before {
     border-color: #1c2531 !important;
   }
+  body .DirectMessage--received .DirectMessage-text {
+    background-color: #1c2531;
+    color: #14171a;
+  }
   body .DMInboxItem:hover,
   body .DirectMessage--received .DirectMessage-message,
   body .conversation-module .conversation-tweet-item .tweet:hover,

@@ -188,6 +188,11 @@
       border-color: hsla(214, 27%, 15%, 1) !important;
     }
 
+    .DirectMessage--received .DirectMessage-text {
+      background-color: #1c2531;
+      color: #14171a;
+    }
+
     .DMInboxItem:hover,
     .DirectMessage--received .DirectMessage-message,
     .conversation-module .conversation-tweet-item .tweet:hover,
