@@ -1233,7 +1233,16 @@
   .PromptbirdPrompt-title,
   body:not(.edge-design) .ProfileHeaderCard-locationText,
   body:not(.edge-design) .ProfileHeaderCard-joinDateText,
-  body:not(.edge-design) .ProfileHeaderCard-birthdateText {
+  body:not(.edge-design) .ProfileHeaderCard-birthdateText,
+  .flex-module-header h3,
+  .DMActivity-title,
+  .DashUserDropdown.dropdown-menu li > a,
+  .DashUserDropdown.dropdown-menu button,
+  .modal-header .modal-title,
+  .ProfileHeaderCard-bio,
+  .module h3,
+  .TweetImpressionsModule-heading,
+  .ProfileSidebar .flex-module-header h3 {
     color: #fff;
   }
   .TypingIndicatorMessageBubble.Caret::before {
