@@ -1492,14 +1492,16 @@
     padding-right: 0 !important;
     padding-left: 2px;
   }
-}
 
-.MomentFormatLink-title, .MomentFormatLink-description {
-  color: #657786;
-}
+  .MomentFormatLink-title, .MomentFormatLink-description {
+    color: #657786;
+  }
 
-.MomentFormatLink-anchor:active, .MomentFormatLink-anchor:focus, .MomentFormatLink-anchor:hover, .MomentFormatLink--withText .MomentFormatLink-anchor:active, .MomentFormatLink--withText .MomentFormatLink-anchor:focus, .MomentFormatLink--withText .MomentFormatLink-anchor:hover {
-  background-color: #161D27; 
+  .MomentFormatLink-anchor:active, .MomentFormatLink-anchor:focus, .MomentFormatLink-anchor:hover, .MomentFormatLink--withText .MomentFormatLink-anchor:active, .MomentFormatLink--withText .MomentFormatLink-anchor:focus, .MomentFormatLink--withText .MomentFormatLink-anchor:hover {
+    background-color: #161D27;
+  }
+
+  // add desktop code above this line!
 }
 
 // end @moz-document url-prefix
@@ -1635,4 +1637,6 @@
   .lIgYF7yz {
     border-color: transparent;
   }
+
+  // add mobile code above this line!
 }
