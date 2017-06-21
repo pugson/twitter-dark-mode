@@ -1459,7 +1459,8 @@
   .TweetImpressionsModule-heading,
   .ProfileSidebar .flex-module-header h3,
   .list .header-inner #content-main-heading,
-  .AdaptiveSearchPage-moduleTitle {
+  .AdaptiveSearchPage-moduleTitle,
+  #auto-close p {
     color: #fff;
   }
 
@@ -1488,7 +1489,8 @@
     }
   }
 
-  .activity-popup-dialog-users {
+  .activity-popup-dialog-users,
+  body.autoclose .footer {
     border-top: 1px solid #2f3d51;
     background-color: #121921;
   }
@@ -1508,7 +1510,8 @@
     border-radius: 3px;
   }
 
-  #activity-popup-dialog .modal-body {
+  #activity-popup-dialog .modal-body,
+  #auto-close p {
     background-color: #212c3b;
   }
 
