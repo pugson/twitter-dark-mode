@@ -75,6 +75,9 @@
   body .MomentMediaItem {
     background-color: #212c3b;
   }
+  body .ProfileHeading {
+    z-index: auto;
+  }
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-arrow,
   body .PromptbirdPrompt--dashboardProfile {
     background-color: #161d27;
