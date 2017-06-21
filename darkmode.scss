@@ -500,6 +500,10 @@
     a {
       color: #1c9dec;
     }
+
+    li.stream-item.highlighted {
+      background-color: #2f3d51 !important;
+    }
   }
 
   .btn:focus, .btn.focus, .Button:focus, .EmojiPicker-item.is-focused {
