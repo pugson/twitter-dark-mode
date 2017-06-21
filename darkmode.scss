@@ -70,7 +70,8 @@
     .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
     .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
     .LiveVideoHomePageModule-eventTitle,
-    .personalization-field {
+    .personalization-field,
+    .TwitterCard .MomentCard-authorName {
       color: #fff;
     }
 
@@ -108,7 +109,9 @@
       color: #fff;
     }
 
-    .PollingCardComposer .PollingCardComposer-pollDuration {
+    .PollingCardComposer .PollingCardComposer-pollDuration,
+    .typeahead .dropdown-inner > .has-results ~ .has-results,
+    .typeahead .dropdown-inner > .has-items ~ .has-items {
       border-top: solid 1px hsla(214, 27%, 25%, 1);
     }
 

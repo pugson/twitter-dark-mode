@@ -62,7 +62,8 @@
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-title,
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
   body .LiveVideoHomePageModule-eventTitle,
-  body .personalization-field {
+  body .personalization-field,
+  body .TwitterCard .MomentCard-authorName {
     color: #fff;
   }
   body .EdgeButton--secondary {
@@ -93,7 +94,9 @@
     border: 1px solid rgba(0, 0, 0, 0.25);
     color: #fff;
   }
-  body .PollingCardComposer .PollingCardComposer-pollDuration {
+  body .PollingCardComposer .PollingCardComposer-pollDuration,
+  body .typeahead .dropdown-inner > .has-results ~ .has-results,
+  body .typeahead .dropdown-inner > .has-items ~ .has-items {
     border-top: solid 1px #2f3d51;
   }
   body .RichEditor,
