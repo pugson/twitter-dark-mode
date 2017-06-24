@@ -477,6 +477,11 @@
   .QuoteTweet--unavailable {
     background: #161d27;
   }
+  .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover,
+  .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus,
+  .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active {
+    background: transparent !important;
+  }
   .hovercard .arrow {
     background-color: #212c3b;
   }
