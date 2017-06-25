@@ -508,7 +508,8 @@
   .EmojiPicker-diversityRow {
     border-top: 1px solid #212c3a;
   }
-  .EmojiPicker-query input[type=text].EmojiPicker-queryInput {
+  .EmojiPicker-query input[type=text].EmojiPicker-queryInput,
+  .WtfLargeCarouselStreamItem-title {
     color: #fff;
   }
   .EdgeButton--primary:focus,
