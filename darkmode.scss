@@ -75,13 +75,19 @@
       color: #fff;
     }
 
+    .EdgeButton--primary {
+      background-color: #1da1f2 !important;
+      border: 1px solid #1da1f2 !important;
+      color: #fff !important;
+    }
+
     .EdgeButton--secondary {
       background-color: #212c3a;
     }
 
     .EdgeButton--primary,
     .EdgeButton--secondary {
-      border-color: #0AB5FA !important;
+      border-color: #1da1f2 !important;
     }
 
     .t1-previous-page {

@@ -66,12 +66,17 @@
   body .TwitterCard .MomentCard-authorName {
     color: #fff;
   }
+  body .EdgeButton--primary {
+    background-color: #1da1f2 !important;
+    border: 1px solid #1da1f2 !important;
+    color: #fff !important;
+  }
   body .EdgeButton--secondary {
     background-color: #212c3a;
   }
   body .EdgeButton--primary,
   body .EdgeButton--secondary {
-    border-color: #0AB5FA !important;
+    border-color: #1da1f2 !important;
   }
   body .t1-previous-page {
     color: #1da1f2;
