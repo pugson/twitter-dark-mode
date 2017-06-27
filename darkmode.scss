@@ -79,6 +79,10 @@
       background-color: #212c3a;
     }
 
+    .EdgeButton--primary,
+    .EdgeButton--secondary {
+      border-color: #0AB5FA !important;
+
     .t1-previous-page {
       color: #1da1f2;
     }
@@ -578,7 +582,8 @@
   }
 
   .EmojiPicker-query input[type=text].EmojiPicker-queryInput,
-  .WtfLargeCarouselStreamItem-title {
+  .WtfLargeCarouselStreamItem-title,
+  .trends-current-location {
     color: #fff;
   }
 
@@ -589,6 +594,12 @@
   .EdgeButton--primary:focus,
   .EdgeButton--secondary:focus {
     box-shadow: 0 0 0 2px #212c3b, 0 0 0 4px rgba(10, 181, 250, 0.5);
+  }
+
+  .EdgeButton--secondary:hover,
+  .EdgeButton--secondary:active {
+    background-color: #1b95e0;
+    color: #fff;
   }
 
   .FoundMediaSearch-query {
@@ -604,6 +615,11 @@
 
   .FoundMediaSearch-focusable {
     border: 3px solid #121921;
+  }
+
+  .form-search .typeahead:before,
+  .form-search .typeahead:after {
+    box-shadow: 0 -3px 3px #090c10, 0 -6px 8px #090c10;
   }
 
   .global-nav .search-input {
