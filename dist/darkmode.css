@@ -73,6 +73,7 @@
   }
   body .EdgeButton--secondary {
     background-color: #212c3a;
+    color: #fff !important;
   }
   body .EdgeButton--primary,
   body .EdgeButton--secondary {
@@ -80,6 +81,18 @@
   }
   body .t1-previous-page {
     color: #1da1f2;
+  }
+  body input:focus,
+  body textarea:focus,
+  body div[contenteditable="true"]:focus,
+  body div[contenteditable="true"].fake-focus,
+  body div[contenteditable="plaintext-only"]:focus,
+  body div[contenteditable="plaintext-only"].fake-focus {
+    box-shadow: none;
+    border-color: #1da1f2 !important;
+  }
+  body .trends-dialog .content-placeholder p {
+    background-color: transparent !important;
   }
   body .MomentMediaItem {
     background-color: #212c3b;

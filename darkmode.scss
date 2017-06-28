@@ -83,6 +83,7 @@
 
     .EdgeButton--secondary {
       background-color: #212c3a;
+      color: #fff !important;
     }
 
     .EdgeButton--primary,
@@ -92,6 +93,20 @@
 
     .t1-previous-page {
       color: #1da1f2;
+    }
+
+    input:focus,
+    textarea:focus,
+    div[contenteditable="true"]:focus,
+    div[contenteditable="true"].fake-focus,
+    div[contenteditable="plaintext-only"]:focus,
+    div[contenteditable="plaintext-only"].fake-focus {
+      box-shadow: none;
+      border-color: #1da1f2 !important;
+    }
+
+    .trends-dialog .content-placeholder p {
+      background-color: transparent !important;
     }
 
     .MomentMediaItem {
