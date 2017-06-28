@@ -1163,6 +1163,10 @@
     }
   }
 
+  body .nav.right-actions > li > button:hover {
+    color: #fff !important;
+  }
+
   .dropdown-menu li > a:hover,
   .dropdown-menu li > a:focus,
   .dropdown-menu .dropdown-link:hover,
