@@ -616,7 +616,8 @@
   }
 
   .EmojiPicker-diversityRow,
-  .MomentsPermalinkPage-related {
+  .MomentsPermalinkPage-related,
+  .logged-out .permalink-replies {
     border-top: 1px solid #212c3a;
   }
 
@@ -1363,7 +1364,8 @@
 
   .modal-footer,
   .MomentDialog-header,
-  .MomentDialog-footer {
+  .MomentDialog-footer,
+  .SignupDialog .SignupDialog-footer {
     text-align: right;
     border-top: 1px solid #2f3d51;
   }
@@ -1421,7 +1423,8 @@
   .stream-item .account .content .bio,
   .ep-Signup .ep-SignupTextContainer .ep-SignupText,
   .ep-Signup .ep-SignupTextContainer .ep-RefreshText,
-  .wtf-module .import-prompt .cta .service + p {
+  .wtf-module .import-prompt .cta .service + p,
+  body .SignupDialog-form .signup.SignupForm > a {
     color: #fff;
   }
 
@@ -1433,6 +1436,10 @@
   .PermalinkProfile-background,
   .ProfilePage.is-editing .ProfilePage-editingOverlay {
     z-index: 1;
+  }
+
+  #phx-signup-form .sign-up-box {
+    background: transparent !important;
   }
 
   .GalleryTweet a.with-icn:not(:hover) .Icon,
