@@ -202,7 +202,9 @@
   body .DirectMessage--received .Caret:before {
     border-color: #1c2531 !important;
   }
-  body .DirectMessage--received .DirectMessage-text {
+  body .DirectMessage--received .DirectMessage-text,
+  body .MomentDialog-header,
+  body .MomentDialog-footer {
     background-color: #1c2531;
     color: #14171a;
   }
