@@ -1631,6 +1631,10 @@
     background-color: #161D27;
   }
 
+  button:focus {
+    box-shadow: 0 0 0 2px #1da1f2, 0 0 2px 4px rgba(255, 255, 255, 0.25) !important;
+  }
+
   // add desktop code above this line!
 }
 
