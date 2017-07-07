@@ -63,8 +63,12 @@
   body .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
   body .LiveVideoHomePageModule-eventTitle,
   body .personalization-field,
-  body .TwitterCard .MomentCard-authorName {
+  body .TwitterCard .MomentCard-authorName,
+  body .MomentAnalyticsData-entryName {
     color: #fff;
+  }
+  body .MomentAnalyticsDialog-card .MomentCapsuleSummary--small {
+    border: 1px solid #1b95e0;
   }
   body .EdgeButton--primary {
     background-color: #1da1f2 !important;
@@ -114,14 +118,16 @@
   body .t1-select,
   body div[contenteditable],
   body input,
-  body textarea {
+  body textarea,
+  body textarea[readonly] {
     background-color: rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.25);
     color: #fff;
   }
   body .PollingCardComposer .PollingCardComposer-pollDuration,
   body .typeahead .dropdown-inner > .has-results ~ .has-results,
-  body .typeahead .dropdown-inner > .has-items ~ .has-items {
+  body .typeahead .dropdown-inner > .has-items ~ .has-items,
+  body .MomentAnalyticsDialog-disclaimer {
     border-top: solid 1px #2f3d51;
   }
   body .RichEditor,
@@ -150,8 +156,12 @@
   body .module,
   body .module .flex-module,
   body .stream-item:not(.no-header-background-module),
-  body .tweet-form .thumbnail-container {
+  body .tweet-form .thumbnail-container,
+  body .MomentMakerCoverDialog-cell--upload {
     background-color: #212c3b !important;
+  }
+  body .MomentMakerCoverCropper {
+    background-color: #131920 !important;
   }
   body #global-tweet-dialog .modal-tweet .tweet,
   body #global-tweet-dialog .modal-tweet .tweet:hover {
@@ -209,7 +219,8 @@
   body .DMComposer-container,
   body .global-nav .search-input,
   body .modal-header,
-  body .u-bgUserColorLightest {
+  body .u-bgUserColorLightest,
+  body .MomentMakerCoverDialog .modal-body {
     background-color: #131920 !important;
     border-color: #2f3d51 !important;
   }
@@ -240,7 +251,8 @@
   body .HomeEmptyTimeline-header,
   body .ProfileOnboarding-title,
   body .ProfileOnboarding-subtitle,
-  body .TweetTextSize.TweetTextSize--xlarge {
+  body .TweetTextSize.TweetTextSize--xlarge,
+  body .MomentsPermalinkPage-relatedTitle {
     color: #fff;
   }
   body .ProfileOnboarding-caret {
@@ -527,7 +539,8 @@
   .EmojiPicker-categoryColumn {
     border-right: 1px solid #212c3a;
   }
-  .EmojiPicker-diversityRow {
+  .EmojiPicker-diversityRow,
+  .MomentsPermalinkPage-related {
     border-top: 1px solid #212c3a;
   }
   .EmojiPicker-query input[type=text].EmojiPicker-queryInput,
@@ -537,6 +550,13 @@
   }
   .TweetImpressionsModule-xAxis {
     background-color: #2f3d51;
+  }
+  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled],
+  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled]:hover {
+    background-color: transparent !important;
+    color: #aab8c2;
+    opacity: .25;
+    cursor: not-allowed;
   }
   .EdgeButton--primary:focus,
   .EdgeButton--secondary:focus {
@@ -947,7 +967,7 @@
   .u-borderUserColor,
   .u-borderUserColorHover:focus,
   .u-borderUserColorHover:hover {
-    border-color: #f3f3f3 !important;
+    border-color: #1da1f2 !important;
   }
   .ProfileUserMomentsTimeline .GridTimeline-items.has-items {
     border: 1px solid #2f3d51;
@@ -1032,7 +1052,8 @@
   .MomentUserByline-fullname {
     color: #f3f3f3;
   }
-  .MomentCapsuleItemTweet--withText {
+  .MomentCapsuleItemTweet--withText,
+  .MomentMakerCapsuleCover-empty {
     background-color: #212c3b;
     border: 1px solid #2f3d51;
   }
@@ -1134,7 +1155,12 @@
   .tweet > .context {
     margin-left: 24px;
   }
-  .modal-footer {
+  .MomentCapsuleEditableMeta-title .rich-editor {
+    color: #657786;
+  }
+  .modal-footer,
+  .MomentDialog-header,
+  .MomentDialog-footer {
     text-align: right;
     border-top: 1px solid #2f3d51;
   }
@@ -1217,7 +1243,9 @@
   #session button {
     background: #090c10;
   }
-  body.nofooter {
+  body.nofooter,
+  .MomentMakerCapsuleCover-media.has-media,
+  .MomentCapsuleCover-media {
     border-bottom: 1px solid #2f3d51;
   }
   html {
@@ -1274,7 +1302,8 @@
   }
   .DMPopover-content.Caret:after,
   .DMTrustRequest,
-  .DMComposer-attachment {
+  .DMComposer-attachment,
+  .MomentFormatLink-anchor {
     border-color: #090c10;
   }
   .TypingIndicatorMessageBubble-dotContainer,

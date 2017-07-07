@@ -71,8 +71,13 @@
     .PromptbirdPrompt--dashboardProfile .PromptbirdPrompt-explanation,
     .LiveVideoHomePageModule-eventTitle,
     .personalization-field,
-    .TwitterCard .MomentCard-authorName {
+    .TwitterCard .MomentCard-authorName,
+    .MomentAnalyticsData-entryName {
       color: #fff;
+    }
+
+    .MomentAnalyticsDialog-card .MomentCapsuleSummary--small {
+      border: 1px solid #1b95e0;
     }
 
     .EdgeButton--primary {
@@ -133,7 +138,8 @@
     .t1-select,
     div[contenteditable],
     input,
-    textarea {
+    textarea,
+    textarea[readonly] {
       background-color: rgba(0, 0, 0, 0.15);
       border: 1px solid rgba(0, 0, 0, 0.25);
       color: #fff;
@@ -141,7 +147,8 @@
 
     .PollingCardComposer .PollingCardComposer-pollDuration,
     .typeahead .dropdown-inner > .has-results ~ .has-results,
-    .typeahead .dropdown-inner > .has-items ~ .has-items {
+    .typeahead .dropdown-inner > .has-items ~ .has-items,
+    .MomentAnalyticsDialog-disclaimer {
       border-top: solid 1px hsla(214, 27%, 25%, 1);
     }
 
@@ -173,8 +180,13 @@
     .module,
     .module .flex-module,
     .stream-item:not(.no-header-background-module),
-    .tweet-form .thumbnail-container {
+    .tweet-form .thumbnail-container,
+    .MomentMakerCoverDialog-cell--upload {
       background-color: hsla(214, 28%, 18%, 1) !important;
+    }
+
+    .MomentMakerCoverCropper {
+      background-color: #131920 !important;
     }
 
     #global-tweet-dialog .modal-tweet .tweet,
@@ -241,7 +253,8 @@
     .DMComposer-container,
     .global-nav .search-input,
     .modal-header,
-    .u-bgUserColorLightest {
+    .u-bgUserColorLightest,
+    .MomentMakerCoverDialog .modal-body {
       background-color: hsla(214, 27%, 10%, 1) !important;
       border-color: hsla(214, 27%, 25%, 1) !important;
     }
@@ -278,7 +291,8 @@
     .HomeEmptyTimeline-header,
     .ProfileOnboarding-title,
     .ProfileOnboarding-subtitle,
-    .TweetTextSize.TweetTextSize--xlarge {
+    .TweetTextSize.TweetTextSize--xlarge,
+    .MomentsPermalinkPage-relatedTitle {
       color: #fff;
     }
 
@@ -599,7 +613,8 @@
     border-right: 1px solid #212c3a;
   }
 
-  .EmojiPicker-diversityRow {
+  .EmojiPicker-diversityRow,
+  .MomentsPermalinkPage-related {
     border-top: 1px solid #212c3a;
   }
 
@@ -611,6 +626,14 @@
 
   .TweetImpressionsModule-xAxis {
     background-color: #2f3d51;
+  }
+
+  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled],
+  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled]:hover {
+    background-color: transparent !important;
+    color: #aab8c2;
+    opacity: .25;
+    cursor: not-allowed;
   }
 
   .EdgeButton--primary:focus,
@@ -1101,7 +1124,7 @@
   .u-borderUserColor,
   .u-borderUserColorHover:focus,
   .u-borderUserColorHover:hover {
-    border-color: #f3f3f3 !important;
+    border-color: #1da1f2 !important;
   }
 
   .ProfileUserMomentsTimeline .GridTimeline-items.has-items {
@@ -1205,7 +1228,8 @@
     color: #f3f3f3;
   }
 
-  .MomentCapsuleItemTweet--withText {
+  .MomentCapsuleItemTweet--withText,
+  .MomentMakerCapsuleCover-empty {
     background-color: #212c3b;
     border: 1px solid #2f3d51;
   }
@@ -1331,7 +1355,13 @@
     margin-left: 24px;
   }
 
-  .modal-footer {
+  .MomentCapsuleEditableMeta-title .rich-editor {
+    color: #657786;
+  }
+
+  .modal-footer,
+  .MomentDialog-header,
+  .MomentDialog-footer {
     text-align: right;
     border-top: 1px solid #2f3d51;
   }
@@ -1425,7 +1455,9 @@
     background: #090c10;
   }
 
-  body.nofooter {
+  body.nofooter,
+  .MomentMakerCapsuleCover-media.has-media,
+  .MomentCapsuleCover-media {
     border-bottom: 1px solid #2f3d51;
   }
 
@@ -1498,7 +1530,8 @@
 
   .DMPopover-content.Caret:after,
   .DMTrustRequest,
-  .DMComposer-attachment {
+  .DMComposer-attachment,
+  .MomentFormatLink-anchor {
     border-color: #090c10;
   }
 
