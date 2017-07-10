@@ -548,6 +548,11 @@
     }
   }
 
+  .tweet-form.condensed * .btn {
+	  background-color: transparent !important;
+	  border-color: transparent !important;
+  }
+
   .btn:focus, .btn.focus, .Button:focus, .EmojiPicker-item.is-focused {
     box-shadow: 0 0 0 1px rgba(206, 222, 242, 0.26), 0 0 3px 2px rgba(29, 161, 242, 0.42);
   }
@@ -1642,6 +1647,20 @@
     box-shadow: 0 0 0 2px #1da1f2, 0 0 2px 4px rgba(255, 255, 255, 0.25) !important;
   }
 
+  .TwitterCard .EdgeButton--secondary.disabled,
+  .TwitterCard .EdgeButton--secondary[disabled],
+  .TwitterCard .EdgeButton--secondary[disabled]:hover,
+  .TwitterCard .EdgeButton--secondary[aria-disabled=true] {
+    background-color: transparent;
+  }
+
+  .TwitterCard .EdgeButton--secondary {
+    background: transparent;
+  }
+
+  .TwitterCard .EdgeButton--secondary:hover {
+    background-color: #1b95e0;
+  }
   // add desktop code above this line!
 }
 
