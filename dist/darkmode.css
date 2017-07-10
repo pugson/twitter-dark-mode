@@ -1216,6 +1216,9 @@
   .ProfileListsTimeline .GridTimeline-items.has-items {
     border: 1px solid #2f3d51;
   }
+  .dm-media-preview {
+    background-color: #090c10;
+  }
   .Icon--protected,
   .ProfileCard--wide .ProfileCard-bio,
   .ProfileCard-userFields,
