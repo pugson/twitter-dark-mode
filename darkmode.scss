@@ -548,9 +548,9 @@
     }
   }
 
-  .tweet-form.condensed * .btn {
-	  background-color: transparent !important;
-	  border-color: transparent !important;
+  .TweetBox-photoIntent .photo-selector .btn {
+    background: transparent !important;
+    border: 0;
   }
 
   .btn:focus, .btn.focus, .Button:focus, .EmojiPicker-item.is-focused {
