@@ -825,7 +825,11 @@
   .MomentCapsuleVTwoItemTweet--withText {
     background: #161d27;
   }
-  .TwitterCard .MomentCard-description p {
+  .TwitterCard .MomentCard-description p,
+  .widgets .header h1,
+  .widgets .form-horizontal .control-label,
+  .widgets .code,
+  .btn-widgets-edit:hover {
     color: #fff;
   }
   .TwitterCard .MomentCard {
