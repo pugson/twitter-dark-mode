@@ -1713,6 +1713,58 @@
     border: 1px solid #2f3d51;
   }
 
+  .StreamsLiveVideoModule-title,
+  .Streams-momentsTitle,
+  .Streams-momentsViewAll a,
+  .TweetWithPivotModule-header a {
+    color:#fff;
+  }
+
+  .StreamsTopBar,
+  .StreamsFooter {
+    background:#212C3B;
+    border: 0;
+  }
+  
+  .StreamsCategoryBar-itemName {
+    color:#fff;
+  }
+
+  .InStreamSignup {
+    background: #212c3b !important;
+  }
+
+  .StreamsCategoryBar-item+.StreamsCategoryBar-item {
+    border-left: 0;
+  }
+
+  .MomentCapsuleSummary--card {
+    background: transparent;
+    border: 0;
+  }
+
+  body .EdgeButton--primary {
+    background:transparent !important;
+  }
+
+  .Streams-dividerText,
+  .Streams-divider:before {
+    background: #212c3b;
+    color: #fff;
+  }
+
+  .Streams .TweetForwardTimeline .tweet {
+    background: #212c3b;
+  }
+
+  .Streams .TweetForwardTimeline .AdaptiveMedia {
+    border: 0;
+    border-radius: 5px 5px 0 0 !important;
+  }
+
+  .StreamsCategoryBar-itemName--reduced {
+    border-color: #0f141a;
+  }
   // add desktop code above this line!
 }
 
