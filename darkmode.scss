@@ -1677,6 +1677,24 @@
     background-color: #1b95e0;
   }
 
+  html .ResponsiveLayout {
+    background: transparent !important;
+
+    .PageContainer {
+      background-color: transparent !important;
+    }
+  }
+
+  html .web-reporting-flow {
+    background-color: transparent !important;
+
+    .reportFlowHeader-web,
+    .web-item,
+    .page-bottom {
+      color: #fff;
+    }
+  }
+
   // add desktop code above this line!
 }
 

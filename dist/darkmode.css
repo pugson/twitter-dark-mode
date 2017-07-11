@@ -1424,6 +1424,20 @@
   .TwitterCard .EdgeButton--secondary:hover {
     background-color: #1b95e0;
   }
+  html .ResponsiveLayout {
+    background: transparent !important;
+  }
+  html .ResponsiveLayout .PageContainer {
+    background-color: transparent !important;
+  }
+  html .web-reporting-flow {
+    background-color: transparent !important;
+  }
+  html .web-reporting-flow .reportFlowHeader-web,
+  html .web-reporting-flow .web-item,
+  html .web-reporting-flow .page-bottom {
+    color: #fff;
+  }
 }
 
 @-moz-document url-prefix("https://mobile.twitter.com") {
