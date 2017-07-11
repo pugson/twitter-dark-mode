@@ -577,6 +577,13 @@
     background-color: #1b95e0;
     color: #fff;
   }
+  .EdgeButton--secondary.disabled,
+  .EdgeButton--secondary[disabled],
+  .EdgeButton--secondary[disabled]:hover,
+  .EdgeButton--secondary[aria-disabled=true] {
+    opacity: .3;
+    background-color: transparent !important;
+  }
   .FoundMediaSearch-query {
     background-color: #212c3b;
     background-repeat: repeat-x;
