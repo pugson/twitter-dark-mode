@@ -560,7 +560,9 @@
     background-color: #2f3d51;
   }
   .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled],
-  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled]:hover {
+  .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled]:hover,
+  .MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled],
+  .MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled]:hover {
     background-color: transparent !important;
     color: #aab8c2;
     opacity: .25;
