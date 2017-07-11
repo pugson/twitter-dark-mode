@@ -1762,6 +1762,12 @@
     border-color: #0f141a;
   }
 
+  body:not(.edge-design),
+  .FacebookConnect-title {
+    background: #212c3b !important;
+    color: #fff;
+  }
+
   // add desktop code above this line!
 }
 
