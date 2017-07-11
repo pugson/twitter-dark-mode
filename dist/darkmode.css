@@ -891,7 +891,7 @@
     color: #fff;
   }
   body .js-nav-links .active .list-link.js-nav:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75) !important;
   }
   .module li:first-child .list-link {
     border-top: none;
