@@ -1717,34 +1717,30 @@
   .Streams-momentsTitle,
   .Streams-momentsViewAll a,
   .TweetWithPivotModule-header a {
-    color:#fff;
+    color: #fff;
   }
 
   .StreamsTopBar,
   .StreamsFooter {
-    background:#212C3B;
+    background: #212C3B;
     border: 0;
   }
-  
+
   .StreamsCategoryBar-itemName {
-    color:#fff;
+    color: #fff;
   }
 
   .InStreamSignup {
     background: #212c3b !important;
   }
 
-  .StreamsCategoryBar-item+.StreamsCategoryBar-item {
+  .StreamsCategoryBar-item + .StreamsCategoryBar-item {
     border-left: 0;
   }
 
   .MomentCapsuleSummary--card {
     background: transparent;
     border: 0;
-  }
-
-  body .EdgeButton--primary {
-    background:transparent !important;
   }
 
   .Streams-dividerText,
@@ -1765,6 +1761,7 @@
   .StreamsCategoryBar-itemName--reduced {
     border-color: #0f141a;
   }
+
   // add desktop code above this line!
 }
 

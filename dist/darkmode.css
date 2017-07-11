@@ -1477,9 +1477,6 @@
     background: transparent;
     border: 0;
   }
-  body .EdgeButton--primary {
-    background: transparent !important;
-  }
   .Streams-dividerText,
   .Streams-divider:before {
     background: #212c3b;
