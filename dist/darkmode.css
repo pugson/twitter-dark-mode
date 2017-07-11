@@ -64,7 +64,8 @@
   body .LiveVideoHomePageModule-eventTitle,
   body .personalization-field,
   body .TwitterCard .MomentCard-authorName,
-  body .MomentAnalyticsData-entryName {
+  body .MomentAnalyticsData-entryName,
+  body .MomentCapsuleLikesFacepile-countNum {
     color: #fff;
   }
   body .MomentAnalyticsDialog-card .MomentCapsuleSummary--small {
