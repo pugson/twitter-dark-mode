@@ -1677,7 +1677,7 @@
     background-color: #1b95e0;
   }
 
-  html .ResponsiveLayout {
+  .ResponsiveLayout {
     background: transparent !important;
 
     .PageContainer {
@@ -1685,7 +1685,7 @@
     }
   }
 
-  html .web-reporting-flow {
+  .web-reporting-flow {
     background-color: transparent !important;
 
     .reportFlowHeader-web,
@@ -1693,6 +1693,10 @@
     .page-bottom {
       color: #fff;
     }
+  }
+
+  .reportFlowHeader-web .list-explanation.success-page {
+    color: #fff !important;
   }
 
   .AdaptiveNewsRelatedHeadlines {
