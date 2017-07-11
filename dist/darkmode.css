@@ -1387,6 +1387,9 @@
   #activity-popup-dialog.reply-users-popup .activity-popup-dialog-other-reply-users {
     border-top: 1px solid #2f3d51;
   }
+  .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover {
+    background: transparent;
+  }
   .bio.u-dir {
     background-color: transparent !important;
   }
