@@ -1768,6 +1768,28 @@
     color: #fff;
   }
 
+  .LiveVideoOfficialAccount {
+    background: #212c3b;
+  }
+
+  .LiveVideoDetails-title {
+    color: hsla(0,0%,100%,.85);
+  }
+
+  .LiveVideoOfficialAccount-card {
+    border-color: #2f3d51;
+  }
+
+  .LiveVideoPage-mediaContainer {
+    z-index: 1;
+  }
+
+  .LiveVideoTimelineNavigation {
+    background: #212c3b;
+    border-color: #2f3d51;
+    color: hsla(0,0%,100%,.85);
+  }
+
   // add desktop code above this line!
 }
 
