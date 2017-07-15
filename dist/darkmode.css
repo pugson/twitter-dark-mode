@@ -260,8 +260,12 @@
   body .ProfileOnboarding-title,
   body .ProfileOnboarding-subtitle,
   body .TweetTextSize.TweetTextSize--xlarge,
-  body .MomentsPermalinkPage-relatedTitle {
+  body .MomentsPermalinkPage-relatedTitle,
+  body .MutedKeyword-expiration {
     color: #fff;
+  }
+  body .MutedKeywordsAddItemForm {
+    background-color: transparent;
   }
   body .ProfileOnboarding-caret {
     border-bottom: 10px solid #2f3d51;
@@ -859,7 +863,6 @@
   .PermalinkOverlay-spinner {
     filter: invert(100%) hue-rotate(180deg);
   }
-  .MutedKeywordsAddItemForm,
   .MutedKeywordsFooter,
   .content-header .header-inner,
   .content-inner,

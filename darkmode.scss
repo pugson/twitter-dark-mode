@@ -301,8 +301,13 @@
     .ProfileOnboarding-title,
     .ProfileOnboarding-subtitle,
     .TweetTextSize.TweetTextSize--xlarge,
-    .MomentsPermalinkPage-relatedTitle {
+    .MomentsPermalinkPage-relatedTitle,
+    .MutedKeyword-expiration {
       color: #fff;
+    }
+
+    .MutedKeywordsAddItemForm {
+      background-color: transparent;
     }
 
     .ProfileOnboarding-caret {
@@ -994,7 +999,6 @@
     filter: invert(100%) hue-rotate(180deg);
   }
 
-  .MutedKeywordsAddItemForm,
   .MutedKeywordsFooter,
   .content-header .header-inner,
   .content-inner,
