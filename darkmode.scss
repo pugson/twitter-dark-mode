@@ -1793,6 +1793,11 @@
   .geo-not-enabled-yet p {
     color: hsla(0,0%,100%,.85);
   }
+
+  .trend-location-picker-item.selected {
+    background-color: transparent;
+    border: 0;
+  }
   
   // add desktop code above this line!
 }
