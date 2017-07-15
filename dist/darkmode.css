@@ -1514,6 +1514,9 @@
     border-color: #2f3d51;
     color: rgba(255, 255, 255, 0.85);
   }
+  .geo-not-enabled-yet p {
+    color: rgba(255, 255, 255, 0.85);
+  }
 }
 
 @-moz-document url-prefix("https://mobile.twitter.com") {
