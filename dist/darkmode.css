@@ -65,7 +65,8 @@
   body .personalization-field,
   body .TwitterCard .MomentCard-authorName,
   body .MomentAnalyticsData-entryName,
-  body .MomentCapsuleLikesFacepile-countNum {
+  body .MomentCapsuleLikesFacepile-countNum,
+  body .EdgeButton.EdgeButton--primary.js-promptAction {
     color: #fff;
   }
   body .MomentAnalyticsDialog-card .MomentCapsuleSummary--small {

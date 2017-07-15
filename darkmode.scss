@@ -73,7 +73,8 @@
     .personalization-field,
     .TwitterCard .MomentCard-authorName,
     .MomentAnalyticsData-entryName,
-    .MomentCapsuleLikesFacepile-countNum {
+    .MomentCapsuleLikesFacepile-countNum,
+    .EdgeButton.EdgeButton--primary.js-promptAction {
       color: #fff;
     }
 
@@ -1773,7 +1774,7 @@
   }
 
   .LiveVideoDetails-title {
-    color: hsla(0,0%,100%,.85);
+    color: hsla(0, 0%, 100%, 0.85);
   }
 
   .LiveVideoOfficialAccount-card {
@@ -1787,18 +1788,18 @@
   .LiveVideoTimelineNavigation {
     background: #212c3b;
     border-color: #2f3d51;
-    color: hsla(0,0%,100%,.85);
+    color: hsla(0, 0%, 100%, 0.85);
   }
 
   .geo-not-enabled-yet p {
-    color: hsla(0,0%,100%,.85);
+    color: hsla(0, 0%, 100%, 0.85);
   }
 
   .trend-location-picker-item.selected {
     background-color: transparent;
     border: 0;
   }
-  
+
   // add desktop code above this line!
 }
 
