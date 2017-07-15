@@ -169,6 +169,10 @@
   body #global-tweet-dialog .modal-tweet .tweet:hover {
     background: transparent;
   }
+  body .photo-selector .image-selector:hover {
+    background-color: rgba(28, 37, 49, 0.5);
+    border-radius: 5px;
+  }
   body .ComposerThumbnail,
   body .DMInboxItem,
   body .MomentMakerHomeModule,

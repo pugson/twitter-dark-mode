@@ -196,6 +196,11 @@
       background: transparent;
     }
 
+    .photo-selector .image-selector:hover {
+      background-color: rgba(28, 37, 49, 0.5);
+      border-radius: 5px;
+    }
+
     .ComposerThumbnail,
     .DMInboxItem,
     .MomentMakerHomeModule,
