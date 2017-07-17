@@ -265,7 +265,8 @@
   body .ProfileOnboarding-subtitle,
   body .TweetTextSize.TweetTextSize--xlarge,
   body .MomentsPermalinkPage-relatedTitle,
-  body .MutedKeyword-expiration {
+  body .MutedKeyword-expiration,
+  body .SearchEmptyTimeline-emptyTitle {
     color: #fff;
   }
   body .MutedKeywordsAddItemForm {
