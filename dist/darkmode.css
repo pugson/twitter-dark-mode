@@ -270,6 +270,10 @@
   body .SearchSettingsDialog-cell--name {
     color: #fff;
   }
+  body .stream-container .AdaptiveStreamGridImage .grid-tweet-actions-container {
+    background: #212c3b;
+    border: 1px solid #1c2531;
+  }
   body .MutedKeywordsAddItemForm {
     background-color: transparent;
   }
