@@ -121,8 +121,11 @@
   body div[contenteditable],
   body input,
   body textarea,
-  body textarea[readonly] {
-    background-color: rgba(0, 0, 0, 0.15);
+  body textarea[readonly],
+  body .advanced-search .chk-inner,
+  body .advanced-search select,
+  body .advanced-search input[type=text] {
+    background-color: #131920;
     border: 1px solid rgba(0, 0, 0, 0.25);
     color: #fff;
   }
@@ -162,7 +165,8 @@
   body .MomentMakerCoverDialog-cell--upload {
     background-color: #212c3b !important;
   }
-  body .MomentMakerCoverCropper {
+  body .MomentMakerCoverCropper,
+  body .datepicker.dropdown-menu {
     background-color: #131920 !important;
   }
   body #global-tweet-dialog .modal-tweet .tweet,
@@ -328,7 +332,8 @@
   body .not-following .follow-button .follow-text,
   body .pending .follow-button .pending-text,
   body .pending .follow-button.cancel-hover-style:hover .pending-text,
-  body .pending .follow-button:hover .cancel-text {
+  body .pending .follow-button:hover .cancel-text,
+  body .datepicker.dropdown-menu {
     color: #fff !important;
   }
   body #global-actions .new:before,
@@ -403,6 +408,16 @@
   }
   body li.js-moments-tab:not(.active) a.js-nav {
     color: #66757f !important;
+  }
+  body .datepicker-dropdown.datepicker-orient-bottom:after {
+    border-top: 6px solid #131920;
+  }
+  body .datepicker table tr td.day:hover,
+  body .datepicker table tr td.day.focused,
+  body .datepicker thead tr:first-child th:hover,
+  body .datepicker tfoot tr th:hover,
+  body .datepicker table tr td span:hover {
+    background: #0ab5fa;
   }
   body .u-textUserColor,
   body .u-textUserColorHover:active,

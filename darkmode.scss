@@ -141,8 +141,11 @@
     div[contenteditable],
     input,
     textarea,
-    textarea[readonly] {
-      background-color: rgba(0, 0, 0, 0.15);
+    textarea[readonly],
+    .advanced-search .chk-inner,
+    .advanced-search select,
+    .advanced-search input[type=text] {
+      background-color: #131920;
       border: 1px solid rgba(0, 0, 0, 0.25);
       color: #fff;
     }
@@ -187,7 +190,8 @@
       background-color: hsla(214, 28%, 18%, 1) !important;
     }
 
-    .MomentMakerCoverCropper {
+    .MomentMakerCoverCropper,
+    .datepicker.dropdown-menu {
       background-color: #131920 !important;
     }
 
@@ -379,7 +383,8 @@
     .not-following .follow-button .follow-text,
     .pending .follow-button .pending-text,
     .pending .follow-button.cancel-hover-style:hover .pending-text,
-    .pending .follow-button:hover .cancel-text {
+    .pending .follow-button:hover .cancel-text,
+    .datepicker.dropdown-menu {
       color: #fff !important;
     }
 
@@ -456,6 +461,18 @@
 
     li.js-moments-tab:not(.active) a.js-nav {
       color: #66757f !important;
+    }
+
+    .datepicker-dropdown.datepicker-orient-bottom:after {
+      border-top: 6px solid #131920;
+    }
+
+    .datepicker table tr td.day:hover,
+    .datepicker table tr td.day.focused,
+    .datepicker thead tr:first-child th:hover,
+    .datepicker tfoot tr th:hover,
+    .datepicker table tr td span:hover {
+      background: #0ab5fa;
     }
 
     .u-textUserColor,
