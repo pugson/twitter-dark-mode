@@ -55,6 +55,9 @@
   body .ProfileCanopy-inner {
     z-index: 1 !important;
   }
+  body .PermalinkOverlay .PermalinkOverlay-with-background {
+    z-index: 1010 !important;
+  }
   body .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
     background: #1da1f2;
   }
