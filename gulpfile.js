@@ -12,7 +12,9 @@ gulp.task('build', function() {
 
 gulp.task('minify', function() {
   gulp.src('./dist/darkmode.css')
-    .pipe(cssnano())
+    .pipe(cssnano({
+      zindex: false
+    }))
     .pipe(gulp.dest('./dist/min'))
 });
 
