@@ -1,16 +1,20 @@
 # Twitter Dark Mode (2017)
 ![preview](http://share.wojtek.im/pW1uwr+)
 
-Dark mode override for [Twitter.com](https://twitter.com) and [mobile.twitter.com](https://mobile.twitter.com) to be used with **Stylish** or **Stylus**. Tested only in Chrome.
+Dark mode override for [Twitter.com](https://twitter.com) and [mobile.twitter.com](https://mobile.twitter.com) to be used with **Stylish\*** or **Stylus**. Tested only in Chrome.
 
-- [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-- [Stylus for Opera](https://addons.opera.com/en/extensions/details/stylus/)
+- [⭐ Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+- [⭐ Stylus for Opera](https://addons.opera.com/en/extensions/details/stylus/)
+
 - [Stylish for Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe)
 - [Stylish for Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome)
 - [Stylish for Safari](http://sobolev.us/stylish/)
 - [Stylish for Opera](https://addons.opera.com/extensions/details/stylish/)
 
-There are still some things that need to be tweaked, so treat this as an alpha thing.
+
+⭐ = recommended
+
+\*Use Stylish at your own risk. [Stylish has been sold to an analytics company.](https://forum.userstyles.org/discussion/53233/announcement-to-the-community)
 
 
 ## How to install
