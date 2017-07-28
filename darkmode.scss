@@ -1864,6 +1864,19 @@
     color: #f5f8fa !important;
   }
 
+  .typeahead a:hover,
+  .typeahead a:hover strong,
+  .typeahead a:hover .fullname,
+  .typeahead .selected a,
+  .typeahead .selected strong,
+  .typeahead .selected .fullname,
+  .typeahead .selected .fullname:hover,
+  .typeahead:hover .fullname,
+  .typeahead .selected .Icon--close,
+  .typeahead-user-item-info.account-group .username {
+    color: #f5f8fa !important;
+  }
+
   // add desktop code above this line!
 }
 
