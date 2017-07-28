@@ -1561,9 +1561,6 @@
   .block-dialog .block-user-description {
     background: #131920 !important;
   }
-  .stream-item-footer {
-    background-color: #212c3b;
-  }
   .tweet.js-stream-tweet.has-cards.Tweet--invertedColors.has-content {
     background-color: transparent;
   }
