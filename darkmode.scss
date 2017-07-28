@@ -170,7 +170,6 @@
     .DMDivider,
     .EmojiBar-icon,
     .EmojiBar-suggestions,
-    .GalleryTweet .tweet,
     .MomentMakerHomeModule,
     .MoveableModule,
     .ProfileAvatar,
@@ -1847,6 +1846,18 @@
 
   .block-dialog .block-user-description {
     background: #131920 !important;
+  }
+
+  .stream-item-footer {
+    background-color: #212c3b;
+  }
+
+  .tweet.js-stream-tweet.has-cards.Tweet--invertedColors.has-content {
+    background-color: transparent;
+  }
+
+  .Gallery-content:hover .tweet.js-stream-tweet.has-cards.Tweet--invertedColors.has-content {
+    background-color: rgba(#212c3b, 0.75);
   }
 
   // add desktop code above this line!
