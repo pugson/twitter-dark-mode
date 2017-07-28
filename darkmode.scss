@@ -1841,6 +1841,14 @@
     z-index: 1010 !important;
   }
 
+  .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover {
+    background: #1C2531;
+  }
+
+  .block-dialog .block-user-description {
+    background: #131920 !important;
+  }
+
   // add desktop code above this line!
 }
 
