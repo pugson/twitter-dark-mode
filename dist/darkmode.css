@@ -1567,6 +1567,13 @@
   .Gallery-content:hover .tweet.js-stream-tweet.has-cards.Tweet--invertedColors.has-content {
     background-color: rgba(33, 44, 59, 0.75);
   }
+  .dropdown-menu .typeahead-items li > a:focus,
+  .dropdown-menu .typeahead-items li > a:hover,
+  .dropdown-menu .typeahead-items .selected,
+  .dropdown-menu .typeahead-items .selected a {
+    background-color: #1c9dec !important;
+    color: #f5f8fa !important;
+  }
 }
 
 @-moz-document url-prefix("https://mobile.twitter.com") {

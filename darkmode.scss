@@ -1856,6 +1856,14 @@
     background-color: rgba(#212c3b, 0.75);
   }
 
+  .dropdown-menu .typeahead-items li > a:focus,
+  .dropdown-menu .typeahead-items li > a:hover,
+  .dropdown-menu .typeahead-items .selected,
+  .dropdown-menu .typeahead-items .selected a {
+    background-color: #1c9dec !important;
+    color: #f5f8fa !important;
+  }
+
   // add desktop code above this line!
 }
 
