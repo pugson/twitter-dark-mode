@@ -1586,6 +1586,10 @@
   .typeahead-user-item-info.account-group .username {
     color: #f5f8fa !important;
   }
+  .AdaptiveNewsTextHeadline-body {
+    background-color: #121921;
+    border: 1px solid #2f3d51;
+  }
 }
 
 @-moz-document url-prefix("https://mobile.twitter.com") {
