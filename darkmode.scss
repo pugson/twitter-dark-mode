@@ -1882,6 +1882,14 @@
     border: 1px solid #2f3d51;
   }
 
+  .DMActivity--open, .permalink-container {
+    border-radius: 8px;
+  }
+
+  .PermalinkOverlay .permalink {
+    border-radius: 12px;
+  }
+
   // add desktop code above this line!
 }
 
