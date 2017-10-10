@@ -47,7 +47,7 @@ I'll review it and merge it, then update the Userstyles.org theme.
 
 ---
 
-You can [follow me on Twitter](https://twitter.com/dubstrike) if you want to.
+You can [follow me on Twitter](https://twitter.com/pugson) if you want to.
 
 ----
 
