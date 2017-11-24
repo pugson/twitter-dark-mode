@@ -60,7 +60,3 @@ You can [follow me on Twitter](https://twitter.com/pugson) if you want to.
 A platform that helps you release successful products by discussing <br />and testing upcoming & existing features with your customers.
 
 [Check it out 👀](https://rayfeed.com)
-
-----
-
-[![Sponsor](https://app.codesponsor.io/embed/SVEk3kwMeWtwcwzcRb7K1Rax/dubstrike/twitter-dark-mode.svg)](https://app.codesponsor.io/link/SVEk3kwMeWtwcwzcRb7K1Rax/dubstrike/twitter-dark-mode)
