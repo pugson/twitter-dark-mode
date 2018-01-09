@@ -1,3 +1,5 @@
+⛔️ No longer maintained. Please use the native Twitter dark mode. ⛔️
+
 # Twitter Dark Mode (2017)
 ![preview](http://share.wojtek.im/pW1uwr+)
 
